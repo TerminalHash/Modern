@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=PlumedAdwaita
+Type=X-GNOME-Metatheme
+Comment= A tweaked, more compact version of Adwaita with Plume colors.
+Encoding=UTF-8
+GtkTheme=PlumedAdwaita
+MetacityTheme=PlumedAdwaita
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24
