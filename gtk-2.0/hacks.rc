@@ -17,7 +17,7 @@ style "chrome_entry" {
 
 style "vim_notebook" {
   bg[NORMAL] = @base_color
-  bg[ACTIVE] = mix (0.6, @bg_color, @base_color)
+  bg[ACTIVE] = @insensitive_bg_color
 }
 
 # Vim puts an eventbox between the tab and the label and colours it,

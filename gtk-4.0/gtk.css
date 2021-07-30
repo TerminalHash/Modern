@@ -26,7 +26,7 @@ iconview { transition-property: outline, outline-width, outline-offset, outline-
 
 iconview { outline: 0 solid transparent; outline-offset: 4px; }
 
-iconview:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+iconview:focus:focus-visible { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 iconview:drop(active) { box-shadow: none; }
 
@@ -38,7 +38,7 @@ flowbox > flowboxchild { padding: 3px; transition: outline-width 200ms cubic-bez
 
 flowbox > flowboxchild { outline: 0 solid transparent; outline-offset: 4px; }
 
-flowbox > flowboxchild:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+flowbox > flowboxchild:focus:focus-visible { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 flowbox > flowboxchild:selected { outline-color: rgba(255, 255, 255, 0.3); }
 
@@ -46,7 +46,7 @@ gridview > child { padding: 3px; transition: outline-width 200ms cubic-bezier(0.
 
 gridview > child { outline: 0 solid transparent; outline-offset: 4px; }
 
-gridview > child:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+gridview > child:focus:focus-visible { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 gridview > child:selected { outline-color: rgba(255, 255, 255, 0.3); }
 
@@ -58,7 +58,7 @@ label { transition-property: outline, outline-width, outline-offset, outline-col
 
 label { outline: 0 solid transparent; outline-offset: 4px; }
 
-label:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+label:focus:focus-visible { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 label > selection { background-color: #A06EA8; color: #ffffff; }
 
@@ -117,7 +117,7 @@ spinbutton.vertical > text, spinbutton:not(.vertical), entry { min-height: 32px;
 
 spinbutton.vertical > text, spinbutton:not(.vertical), entry { outline: 0 solid transparent; outline-offset: 4px; }
 
-spinbutton.vertical > text:focus-within, spinbutton:focus-within:not(.vertical), entry:focus-within { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+spinbutton.vertical > text:focus-within, spinbutton:focus-within:not(.vertical), entry:focus-within { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 spinbutton.vertical > text > image.left, spinbutton:not(.vertical) > image.left, entry > image.left { margin-right: 6px; }
 
@@ -189,14 +189,14 @@ treeview entry.flat:focus-within, treeview entry:focus-within { border-color: #A
 editablelabel > stack > text { color: white; border-color: #1b1b1b; background-color: #2d2d2d; }
 
 /*********** Buttons * */
-@keyframes needs_attention { from { background-image: radial-gradient(farthest-side, #1f76e1 0%, rgba(31, 118, 225, 0) 0%); }
-  to { background-image: radial-gradient(farthest-side, #1f76e1 95%, rgba(31, 118, 225, 0)); } }
+@keyframes needs_attention { from { background-image: radial-gradient(farthest-side, #ad7fa8 0%, rgba(117, 80, 123, 0) 0%); }
+  to { background-image: radial-gradient(farthest-side, #ad7fa8 95%, rgba(117, 80, 123, 0)); } }
 
-notebook > header > tabs > arrow, windowcontrols button, button { min-height: 16px; min-width: 16px; padding: 2px 4px; border: 1px solid; border-radius: 5px; transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); color: #eeeeec; outline-color: rgba(21, 83, 158, 0.7); border-color: #1b1b1b; background-image: linear-gradient(to top, #373737 2px, #3a3a3a); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); transition-property: outline, outline-width, outline-offset, outline-color; transition-duration: 300ms; animation-timing-function: ease-in-out; }
+notebook > header > tabs > arrow, windowcontrols button, button { min-height: 16px; min-width: 16px; padding: 2px 4px; border: 1px solid; border-radius: 5px; transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); color: #eeeeec; outline-color: #5c3566; border-color: #1b1b1b; background-image: linear-gradient(to top, #373737 2px, #3a3a3a); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); transition-property: outline, outline-width, outline-offset, outline-color; transition-duration: 300ms; animation-timing-function: ease-in-out; }
 
 notebook > header > tabs > arrow, windowcontrols button, button { outline: 0 solid transparent; outline-offset: 4px; }
 
-notebook > header > tabs > arrow:focus:focus-visible, button:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+notebook > header > tabs > arrow:focus:focus-visible, button:focus:focus-visible { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 notebook > header > tabs > arrow:hover, button:hover { color: #eeeeec; border-color: #1b1b1b; background-image: linear-gradient(to top, #303030 20%, #323232 90%); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); -gtk-icon-filter: brightness(1.2); }
 
@@ -242,7 +242,7 @@ row:selected button.sidebar-button:not(:active):not(:checked):not(:hover):not(di
 
 row:selected button.sidebar-button:not(:active):not(:checked):not(:hover):not(disabled):backdrop, row:selected button.flat:not(:active):not(:checked):not(:hover):not(disabled):backdrop { color: #919190; }
 
-button.osd { min-width: 26px; min-height: 32px; color: #eeeeec; border-radius: 5px; color: #eeeeec; outline-color: rgba(21, 83, 158, 0.7); border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(38, 38, 38, 0.7)); background-clip: padding-box; border: none; box-shadow: none; }
+button.osd { min-width: 26px; min-height: 32px; color: #eeeeec; border-radius: 5px; color: #eeeeec; outline-color: #5c3566; border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(38, 38, 38, 0.7)); background-clip: padding-box; border: none; box-shadow: none; }
 
 button.osd.image-button { min-width: 30px; }
 
@@ -252,7 +252,7 @@ button.osd:hover { color: white; border-color: rgba(0, 0, 0, 0.7); background-co
 
 button.osd:active, button.osd:checked { color: white; border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(0, 0, 0, 0.7)); background-clip: padding-box; box-shadow: none; border: none; box-shadow: none; }
 
-.app-notification button, popover.background.touch-selection button, popover.background.magnifier button, .osd button { color: #eeeeec; outline-color: rgba(21, 83, 158, 0.7); border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(38, 38, 38, 0.7)); background-clip: padding-box; }
+.app-notification button, popover.background.touch-selection button, popover.background.magnifier button, .osd button { color: #eeeeec; outline-color: #5c3566; border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(38, 38, 38, 0.7)); background-clip: padding-box; }
 
 .app-notification button:hover, popover.background.touch-selection button:hover, popover.background.magnifier button:hover, .osd button:hover { color: white; border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(12, 12, 12, 0.7)); background-clip: padding-box; }
 
@@ -278,7 +278,7 @@ button.suggested-action.flat { border-color: transparent; background-color: tran
 
 button.suggested-action:hover { color: white; border-color: #75507b; background: #A06EA8; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); }
 
-button.suggested-action:active, button.suggested-action:checked { color: white; border-color: #75507b; background-image: image(#103e75); box-shadow: none; }
+button.suggested-action:active, button.suggested-action:checked { color: white; border-color: #75507b; background-image: image(#5c3566); box-shadow: none; }
 
 button.suggested-action.flat:disabled { border-color: transparent; background-color: transparent; background-image: none; box-shadow: none; color: rgba(21, 83, 158, 0.8); }
 
@@ -334,7 +334,7 @@ menubutton.circular button, button.circular { min-width: 32px; min-height: 32px;
 
 menubutton.circular button label, button.circular label { padding: 0; }
 
-stacksidebar row.needs-attention > label, stackswitcher > button.needs-attention > label, stackswitcher > button.needs-attention > image { animation: needs_attention 150ms ease-in; background-image: radial-gradient(farthest-side, #1f76e1 96%, rgba(31, 118, 225, 0)); background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; background-position: right 3px, right 2px; }
+stacksidebar row.needs-attention > label, stackswitcher > button.needs-attention > label, stackswitcher > button.needs-attention > image { animation: needs_attention 150ms ease-in; background-image: radial-gradient(farthest-side, #ad7fa8 96%, rgba(117, 80, 123, 0)); background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; background-position: right 3px, right 2px; }
 
 stacksidebar row.needs-attention > label:backdrop, stackswitcher > button.needs-attention > label:backdrop, stackswitcher > button.needs-attention > image:backdrop { background-size: 6px 6px, 0 0; }
 
@@ -425,7 +425,7 @@ link { transition-property: outline, outline-width, outline-offset, outline-colo
 
 link { outline: 0 solid transparent; outline-offset: 4px; }
 
-link:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+link:focus:focus-visible { outline-color: #ad7fa8; outline-width: 2px; outline-offset: -2px; }
 
 button.link, button.link:hover, button.link:active, button.link:checked { text-shadow: none; }
 
@@ -480,7 +480,7 @@ spinbutton.vertical > button.up { border-bottom-style: none; border-bottom-left-
 
 spinbutton.vertical > button.down { border-top-style: none; border-top-left-radius: 0; border-top-right-radius: 0; }
 
-.osd spinbutton.vertical > button:first-child { color: #eeeeec; outline-color: rgba(21, 83, 158, 0.7); border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(38, 38, 38, 0.7)); background-clip: padding-box; }
+.osd spinbutton.vertical > button:first-child { color: #eeeeec; outline-color: #5c3566; border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(38, 38, 38, 0.7)); background-clip: padding-box; }
 
 .osd spinbutton.vertical > button:first-child:hover { color: white; border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(12, 12, 12, 0.7)); background-clip: padding-box; }
 
@@ -637,7 +637,7 @@ columnview.view, treeview.view { border-left-color: #545453; border-top-color: #
 
 columnview.view, treeview.view { outline: 0 solid transparent; outline-offset: 4px; }
 
-columnview.view:focus:focus-visible, treeview.view:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+columnview.view:focus:focus-visible, treeview.view:focus:focus-visible { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 columnview.view:selected:focus, columnview.view:selected, treeview.view:selected:focus, treeview.view:selected { border-radius: 0; outline-color: rgba(255, 255, 255, 0.3); }
 
@@ -790,7 +790,7 @@ notebook { transition-property: outline, outline-width, outline-offset, outline-
 
 notebook > header > tabs > tab:checked { outline: 0 solid transparent; outline-offset: 4px; }
 
-notebook:focus:focus-visible > header > tabs > tab:checked { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+notebook:focus:focus-visible > header > tabs > tab:checked { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 notebook > header { padding: 1px; border-bottom: 1px; border-top: 1px; border-color: #1b1b1b; background: linear-gradient(to bottom, #262626, #313131); }
 
@@ -952,7 +952,7 @@ switch { font-weight: bold; font-size: smaller; border: 1px solid #1b1b1b; borde
 
 switch { outline: 0 solid transparent; outline-offset: 4px; }
 
-switch:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: 0; }
+switch:focus:focus-visible { outline-color: #5c3566; outline-width: 2px; outline-offset: 0; }
 
 headerbar switch { background-color: #141414; }
 
@@ -960,7 +960,7 @@ switch:checked { color: #ffffff; border-color: #030c17; background-color: #A06EA
 
 switch:disabled { color: #919190; border-color: #1b1b1b; background-color: #323232; text-shadow: none; }
 
-switch > slider { color: #eeeeec; outline-color: rgba(21, 83, 158, 0.7); border-color: #1b1b1b; background-image: linear-gradient(to top, #373737 2px, #3a3a3a); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); margin: -1px; min-width: 24px; min-height: 24px; border: 1px solid; border-color: #1b1b1b; border-radius: 50%; transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+switch > slider { color: #eeeeec; outline-color: #5c3566; border-color: #1b1b1b; background-image: linear-gradient(to top, #373737 2px, #3a3a3a); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); margin: -1px; min-width: 24px; min-height: 24px; border: 1px solid; border-color: #1b1b1b; border-radius: 50%; transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 
 switch > image { color: transparent; }
 
@@ -993,7 +993,7 @@ checkbutton { border-spacing: 4px; border-radius: 5px; transition: outline-width
 
 checkbutton { outline: 0 solid transparent; outline-offset: 4px; }
 
-checkbutton:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+checkbutton:focus:focus-visible { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 checkbutton.text-button { padding: 4px; }
 
@@ -1023,9 +1023,9 @@ check:indeterminate:active, radio:indeterminate:active { box-shadow: inset 0 1px
 
 check:indeterminate:disabled, radio:indeterminate:disabled { box-shadow: none; color: rgba(255, 255, 255, 0.7); }
 
-.osd check, .osd radio { color: #eeeeec; outline-color: rgba(21, 83, 158, 0.7); border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(38, 38, 38, 0.7)); background-clip: padding-box; }
+.osd check, .osd radio { color: #eeeeec; outline-color: #5c3566; border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(38, 38, 38, 0.7)); background-clip: padding-box; }
 
-.osd check:hover, .osd radio:hover { color: #eeeeec; outline-color: rgba(21, 83, 158, 0.7); border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(38, 38, 38, 0.7)); background-clip: padding-box; }
+.osd check:hover, .osd radio:hover { color: #eeeeec; outline-color: #5c3566; border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(38, 38, 38, 0.7)); background-clip: padding-box; }
 
 .osd check:active, .osd radio:active { color: white; border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(0, 0, 0, 0.7)); background-clip: padding-box; box-shadow: none; }
 
@@ -1072,7 +1072,7 @@ scale { min-height: 10px; min-width: 10px; padding: 12px; transition-property: o
 
 scale > trough { outline: 0 solid transparent; outline-offset: 16px; }
 
-scale:focus:focus-visible > trough { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: 10px; }
+scale:focus:focus-visible > trough { outline-color: #5c3566; outline-width: 2px; outline-offset: 10px; }
 
 scale > trough { transition: outline-width 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94), outline-offset 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 
@@ -1094,7 +1094,7 @@ scale > trough > fill:disabled { border-color: transparent; background-color: tr
 
 .osd scale > trough > fill:disabled { border-color: transparent; background-color: transparent; }
 
-scale > trough > slider { color: #eeeeec; outline-color: rgba(21, 83, 158, 0.7); border-color: #1b1b1b; background-image: linear-gradient(to top, #373737 2px, #3a3a3a); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); border-width: 1px; border-style: solid; border-radius: 100%; transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); transition-property: background, border, box-shadow; }
+scale > trough > slider { color: #eeeeec; outline-color: #5c3566; border-color: #1b1b1b; background-image: linear-gradient(to top, #373737 2px, #3a3a3a); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); border-width: 1px; border-style: solid; border-radius: 100%; transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); transition-property: background, border, box-shadow; }
 
 scale > trough > slider:hover { color: #eeeeec; border-color: #1b1b1b; background-image: linear-gradient(to top, #303030 20%, #323232 90%); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); }
 
@@ -1104,7 +1104,7 @@ scale > trough > slider:disabled { color: #919190; border-color: #202020; backgr
 
 row:selected scale > trough > slider:disabled, row:selected scale > trough > slider { border-color: #030c17; }
 
-.osd scale > trough > slider { color: #eeeeec; outline-color: rgba(21, 83, 158, 0.7); border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(38, 38, 38, 0.7)); background-clip: padding-box; border-color: rgba(0, 0, 0, 0.7); background-color: #262626; }
+.osd scale > trough > slider { color: #eeeeec; outline-color: #5c3566; border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(38, 38, 38, 0.7)); background-clip: padding-box; border-color: rgba(0, 0, 0, 0.7); background-color: #262626; }
 
 .osd scale > trough > slider:hover { color: white; border-color: rgba(0, 0, 0, 0.7); background-color: transparent; background-image: image(rgba(12, 12, 12, 0.7)); background-clip: padding-box; background-color: #262626; }
 
@@ -1369,7 +1369,7 @@ row { transition-property: outline, outline-width, outline-offset, outline-color
 
 row { outline: 0 solid transparent; outline-offset: 4px; }
 
-row:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+row:focus:focus-visible { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 row.activatable.has-open-popup, row.activatable:hover { background-color: rgba(238, 238, 236, 0.05); }
 
@@ -1394,7 +1394,7 @@ columnview.data-table > listview > row > cell { padding-top: 2px; padding-bottom
 treeexpander { border-spacing: 4px; }
 
 /******************************************************** Data Tables                                          * treeview like tables with individual focusable cells * https://gitlab.gnome.org/GNOME/gtk/-/issues/2929     * */
-columnview row:not(:selected) cell editablelabel:not(.editing):focus-within { outline: 2px solid rgba(21, 83, 158, 0.7); }
+columnview row:not(:selected) cell editablelabel:not(.editing):focus-within { outline: 2px solid #5c3566; }
 
 columnview row:not(:selected) cell editablelabel.editing:focus-within { outline: 2px solid #A06EA8; }
 
@@ -1425,7 +1425,7 @@ expander-widget { transition-property: outline, outline-width, outline-offset, o
 
 expander-widget > box > title { outline: 0 solid transparent; outline-offset: 4px; }
 
-expander-widget:focus:focus-visible > box > title { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+expander-widget:focus:focus-visible > box > title { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 expander-widget > box > title { transition: outline-width 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94), outline-offset 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); border-radius: 5px; }
 
@@ -1446,7 +1446,7 @@ calendar > grid > label.today { box-shadow: inset 0px -2px #1b1b1b; }
 
 calendar > grid > label.today:selected { box-shadow: none; }
 
-calendar > grid > label:focus { outline-color: rgba(21, 83, 158, 0.7); outline-offset: -2px; outline-width: 2px; outline-style: solid; }
+calendar > grid > label:focus { outline-color: #5c3566; outline-offset: -2px; outline-width: 2px; outline-style: solid; }
 
 calendar > grid > label.day-number { padding: 4px; }
 
@@ -1494,7 +1494,7 @@ stacksidebar row { padding: 10px 4px; transition-property: outline, outline-widt
 
 stacksidebar row { outline: 0 solid transparent; outline-offset: 4px; }
 
-stacksidebar row:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+stacksidebar row:focus:focus-visible { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 stacksidebar row > label { padding-left: 6px; padding-right: 6px; }
 
@@ -1517,7 +1517,7 @@ separator.sidebar { background-color: #1b1b1b; }
 
 .navigation-sidebar > row { outline: 0 solid transparent; outline-offset: 4px; }
 
-.navigation-sidebar > row:focus-visible:focus-within { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: -2px; }
+.navigation-sidebar > row:focus-visible:focus-within { outline-color: #5c3566; outline-width: 2px; outline-offset: -2px; }
 
 .navigation-sidebar > row:hover { background-color: #141414; }
 
@@ -1597,7 +1597,7 @@ colorswatch { transition: outline-width 200ms cubic-bezier(0.25, 0.46, 0.45, 0.9
 
 colorswatch { outline: 0 solid transparent; outline-offset: 6px; }
 
-colorswatch:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 4px; outline-offset: -2px; }
+colorswatch:focus:focus-visible { outline-color: #5c3566; outline-width: 4px; outline-offset: -2px; }
 
 colorswatch:drop(active), colorswatch { border-style: none; }
 
@@ -1639,7 +1639,7 @@ colorswatch#add-color-button { border-radius: 5px 0 0 5px; }
 
 colorswatch#add-color-button:only-child { border-radius: 5px; }
 
-colorswatch#add-color-button > overlay { color: #eeeeec; outline-color: rgba(21, 83, 158, 0.7); border-color: #1b1b1b; background-image: linear-gradient(to top, #373737 2px, #3a3a3a); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); }
+colorswatch#add-color-button > overlay { color: #eeeeec; outline-color: #5c3566; border-color: #1b1b1b; background-image: linear-gradient(to top, #373737 2px, #3a3a3a); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); }
 
 colorswatch#add-color-button.activatable:hover > overlay { color: #eeeeec; border-color: #1b1b1b; background-image: linear-gradient(to top, #303030 20%, #323232 90%); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); }
 
@@ -1657,7 +1657,7 @@ plane { transition: outline-width 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94), ou
 
 plane { outline: 0 solid transparent; outline-offset: 6px; }
 
-plane:focus:focus-visible { outline-color: rgba(21, 83, 158, 0.7); outline-width: 2px; outline-offset: 2px; }
+plane:focus:focus-visible { outline-color: #5c3566; outline-width: 2px; outline-offset: 2px; }
 
 colorchooser .popover.osd { border-radius: 5px; }
 
