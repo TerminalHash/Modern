@@ -33,3 +33,6 @@ Extract archive with theme to ~/themes/Modern.
 
 **GTK+4**
 ![gtk4](screenshots/gtk4.png)
+
+**Comparsion**
+![gtk4](screenshots/comparsion.png)
