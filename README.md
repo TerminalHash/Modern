@@ -21,6 +21,10 @@ Changes, what included:
 
 Extract archive with theme to ~/themes/Modern.
 
+Color schemes for Qt5Ct/Qt6Ct install to:
+* Qt5: ~/.config/qt5ct/colors
+* Qt6: ~/.config/qt5ct/colors
+
 ## Third-party code
 
 * Original Adwaita themes from [libgtk](https://gitlab.gnome.org/GNOME/gtk/) (GTK+3, GTK+2) and [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) (GTK+4), what exported with widget factories of this toolkits.
