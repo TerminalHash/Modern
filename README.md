@@ -23,7 +23,7 @@ Extract archive with theme to ~/themes/Modern.
 
 Color schemes for Qt5Ct/Qt6Ct install to:
 * Qt5: ~/.config/qt5ct/colors
-* Qt6: ~/.config/qt5ct/colors
+* Qt6: ~/.config/qt6ct/colors
 
 ## Third-party code
 
