@@ -29,6 +29,7 @@ Color schemes for Qt5Ct/Qt6Ct install to:
 
 * Original Adwaita themes from [libgtk](https://gitlab.gnome.org/GNOME/gtk/) (GTK+3, GTK+2) and [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) (GTK+4), what exported with widget factories of this toolkits.
 * Some code i picked from our works -  [Clearlooks Phenix Plume](https://github.com/TerminalHash/clearlooks-phenix-plume) and based on this theme my forks.
+* GTK+2 theme picked from [Adw-Mod](https://gitlab.com/hrdwrrsk/AdwMod-theme) by hrdwrrsk
 
 ## Screenshots
 

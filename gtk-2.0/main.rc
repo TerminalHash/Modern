@@ -1109,7 +1109,7 @@ style "default" {
       function = SLIDER
       state    = ACTIVE
       detail   = "hscale"
-      file     = "assets/scale-slider-active.png"
+      file     = "assets/scale-slider-hover.png"
     }
 
     image {
@@ -1136,7 +1136,7 @@ style "default" {
       function = SLIDER
       state    = ACTIVE
       detail   = "vscale"
-      file     = "assets/scale-slider-active.png"
+      file     = "assets/scale-slider-hover.png"
     }
 
     image {
