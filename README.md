@@ -13,9 +13,10 @@ Changes, what included:
 
 ## Known bugs
 
-1. Some accents not recolored (because some backgrounds/borders colored with *rgb(xx, xx, xx, xx)*, this different search).
-2. GTK+2 theme not matching to other (because original theme with different color scheme, then original Adwaita).
-3. What i don't see.
+1. Some accents not recolored (because some backgrounds/borders colored with *rgba(xx, xx, xx, xx)*, this different search);
+2. Little bugs in GTK+4 theme with headerbar/titlebar;
+3. In Cinnamon - very litle titlebar;
+4. What i don't see.
 
 ## How to instal
 
@@ -25,11 +26,14 @@ Color schemes for Qt5Ct/Qt6Ct install to:
 * Qt5: ~/.config/qt5ct/colors
 * Qt6: ~/.config/qt6ct/colors
 
+Color schemes for KDE Plasma install to:
+* ~/.local/share/color-schemes
+
 ## Third-party code
 
-* Original Adwaita themes from [libgtk](https://gitlab.gnome.org/GNOME/gtk/) (GTK+3, GTK+2) and [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) (GTK+4), what exported with widget factories of this toolkits.
+* ~~Original Adwaita themes from [libgtk](https://gitlab.gnome.org/GNOME/gtk/) (GTK+3, GTK+2) and [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) (GTK+4), what exported with widget factories of this toolkits.~~
 * Some code i picked from our works -  [Clearlooks Phenix Plume](https://github.com/TerminalHash/clearlooks-phenix-plume) and based on this theme my forks.
-* GTK+2 theme picked from [Adw-Mod](https://gitlab.com/hrdwrrsk/AdwMod-theme) by hrdwrrsk
+* Fully rebased on [Adw-Mod](https://gitlab.com/hrdwrrsk/AdwMod-theme) by hrdwrrsk
 
 ## Screenshots
 
