@@ -1964,32 +1964,6 @@ filechooserbutton:drop(active) {
 /***************
  * Header bars *
  ***************/
-.raven .raven-header.top,
-headerbar {
-  padding: 0 6px;
-  min-height: 40px;
-  border-width: 0 0 1px;
-  border-style: solid;
-  border-color: #070707;
-  border-radius: 0;
-  background: #1b1b1b linear-gradient(to top, #262626, #2b2b2b);
-  box-shadow: inset 0 1px rgba(238, 238, 236, 0.07);
-  /* Darken switchbuttons for headerbars. issue #1588 */
-  /* hide the close button separator */
-}
-
-.raven .raven-header.top:backdrop,
-headerbar:backdrop {
-  border-color: #1b1b1b;
-  background-image: linear-gradient(to top, #353535, #353535);
-  box-shadow: inset 0 1px rgba(238, 238, 236, 0.07);
-  transition: 200ms ease-out;
-}
-
-.raven .raven-header.top:backdrop > *,
-headerbar:backdrop > * {
-  opacity: 0.5;
-}
 
 .raven .raven-header.top leaflet:backdrop,
 headerbar leaflet:backdrop {
@@ -2023,25 +1997,15 @@ headerbar button:not(.flat).toggle:checked {
   border-top-color: #070707;
 }
 
-.tiled .raven .raven-header.top, .raven .tiled .raven-header.top, .tiled-top .raven .raven-header.top, .raven .tiled-top .raven-header.top, .tiled-right .raven .raven-header.top, .raven .tiled-right .raven-header.top, .tiled-bottom .raven .raven-header.top, .raven .tiled-bottom .raven-header.top, .tiled-left .raven .raven-header.top, .raven .tiled-left .raven-header.top, .maximized .raven .raven-header.top, .raven .maximized .raven-header.top, .fullscreen .raven .raven-header.top, .raven .fullscreen .raven-header.top, .tiled headerbar, .tiled-top headerbar, .tiled-right headerbar, .tiled-bottom headerbar, .tiled-left headerbar, .maximized headerbar, .fullscreen headerbar {
+.tiled .raven .raven-header.top, .raven .tiled .raven-header.top, .tiled-top .raven .raven-header.top, .raven .tiled-top .raven-header.top, .tiled-right .raven .raven-header.top, .raven .tiled-right .raven-header.top, .tiled-bottom .raven .raven-header.top, .raven .tiled-bottom .raven-header.top, .tiled-left .raven .raven-header.top, .raven .tiled-left .raven-header.top, .maximized .raven .raven-header.top, .raven .maximized .raven-header.top, .fullscreen .raven .raven-header.top, .raven .fullscreen .raven-header.top, .tiled headerbar, .tiled-top headerbar, .tiled-right headerbar, .tiled-bottom headerbar, .tiled-left headerbar, .maximized headerbar, .fullscreen headerbar, .fullscreen .titlebar:not(headerbar), .maximized .titlebar:not(headerbar), .tiled .titlebar:not(headerbar), .tiled-top .titlebar:not(headerbar), .tiled-right .titlebar:not(headerbar), .tiled-bottom .titlebar:not(headerbar), .tiled-left .titlebar:not(headerbar) {
   border-radius: 0;
-}
-
-.raven .default-decoration.raven-header.top,
-headerbar.default-decoration {
-  min-height: 24px;
-  padding: 4px;
+  border: 1px solid #5c3566;
 }
 
 .raven .default-decoration.raven-header.top:backdrop,
 headerbar.default-decoration:backdrop {
   color: #919190;
   opacity: 1.0;
-}
-
-.raven .raven-header.top separator.titlebutton,
-headerbar separator.titlebutton {
-  opacity: 0;
 }
 
 .solid-csd .raven .raven-header.top:dir(rtl), .raven .solid-csd .raven-header.top:dir(rtl), .solid-csd .raven .raven-header.top:dir(ltr), .raven .solid-csd .raven-header.top:dir(ltr), .solid-csd headerbar:backdrop:dir(rtl), .solid-csd headerbar:backdrop:dir(ltr), .solid-csd headerbar:dir(rtl), .solid-csd headerbar:dir(ltr) {
@@ -2067,19 +2031,9 @@ headerbar switch {
   margin-bottom: 8px;
 }
 
-headerbar.titlebar headerbar:not(.titlebar) {
-  background: none;
-  box-shadow: none;
-}
-
 headerbar button.color {
   min-width: 22px;
   min-height: 14px;
-}
-
-.background .titlebar:backdrop, .background .titlebar {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
 }
 
 .background.tiled .titlebar:backdrop, .background.tiled .titlebar,
@@ -2097,6 +2051,7 @@ headerbar button.color {
 .background.solid-csd .titlebar {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  border: 1px solid #5c3566;
 }
 
 window separator:first-child + headerbar:backdrop, window separator:first-child + headerbar, window headerbar:first-child:backdrop, window headerbar:first-child {
@@ -2115,6 +2070,7 @@ window stack headerbar:first-child:backdrop, window stack headerbar:first-child,
 window.tiled headerbar, window.tiled headerbar:first-child, window.tiled headerbar:last-child, window.tiled headerbar:only-child, window.tiled headerbar:backdrop, window.tiled headerbar:backdrop:first-child, window.tiled headerbar:backdrop:last-child, window.tiled headerbar:backdrop:only-child, window.tiled-top headerbar, window.tiled-top headerbar:first-child, window.tiled-top headerbar:last-child, window.tiled-top headerbar:only-child, window.tiled-top headerbar:backdrop, window.tiled-top headerbar:backdrop:first-child, window.tiled-top headerbar:backdrop:last-child, window.tiled-top headerbar:backdrop:only-child, window.tiled-right headerbar, window.tiled-right headerbar:first-child, window.tiled-right headerbar:last-child, window.tiled-right headerbar:only-child, window.tiled-right headerbar:backdrop, window.tiled-right headerbar:backdrop:first-child, window.tiled-right headerbar:backdrop:last-child, window.tiled-right headerbar:backdrop:only-child, window.tiled-bottom headerbar, window.tiled-bottom headerbar:first-child, window.tiled-bottom headerbar:last-child, window.tiled-bottom headerbar:only-child, window.tiled-bottom headerbar:backdrop, window.tiled-bottom headerbar:backdrop:first-child, window.tiled-bottom headerbar:backdrop:last-child, window.tiled-bottom headerbar:backdrop:only-child, window.tiled-left headerbar, window.tiled-left headerbar:first-child, window.tiled-left headerbar:last-child, window.tiled-left headerbar:only-child, window.tiled-left headerbar:backdrop, window.tiled-left headerbar:backdrop:first-child, window.tiled-left headerbar:backdrop:last-child, window.tiled-left headerbar:backdrop:only-child, window.maximized headerbar, window.maximized headerbar:first-child, window.maximized headerbar:last-child, window.maximized headerbar:only-child, window.maximized headerbar:backdrop, window.maximized headerbar:backdrop:first-child, window.maximized headerbar:backdrop:last-child, window.maximized headerbar:backdrop:only-child, window.fullscreen headerbar, window.fullscreen headerbar:first-child, window.fullscreen headerbar:last-child, window.fullscreen headerbar:only-child, window.fullscreen headerbar:backdrop, window.fullscreen headerbar:backdrop:first-child, window.fullscreen headerbar:backdrop:last-child, window.fullscreen headerbar:backdrop:only-child, window.solid-csd headerbar, window.solid-csd headerbar:first-child, window.solid-csd headerbar:last-child, window.solid-csd headerbar:only-child, window.solid-csd headerbar:backdrop, window.solid-csd headerbar:backdrop:first-child, window.solid-csd headerbar:backdrop:last-child, window.solid-csd headerbar:backdrop:only-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  border: 1px solid #5c3566;
 }
 
 .titlebar:not(headerbar) separator {
@@ -5005,7 +4961,8 @@ viewswitcherbar actionbar > revealer > box {
  *********************/
 decoration {
   border-radius: 8px 8px 0 0;
-  border-width: 0px;
+  border-width: 1px;
+  border-color: #5c3566;
   box-shadow: 0 1px 3px 3px transparent, 0 2px 8px 2px rgba(0, 0, 0, 0.13), 0 3px 20px 10px rgba(0, 0, 0, 0.09), 0 6px 32px 16px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.75);
   margin: 10px;
 }
@@ -6679,94 +6636,7 @@ dialog.xfsm-logout-dialog.keycap separator.horizontal {
   border-radius: 0;
 }
 
-/* Changes for Modern theme 
-  (this should work, i guess) */
-
-/* Settings for header/titlebar */
-.raven .raven-header.top, .titlebar:not(headerbar), headerbar { 
-  padding: 0 6px;
-  min-height: 16px;
-  border-width: 0 0 1px;
-  border-style: solid;
-  border-color: #5c3566;
-  border-radius: 8px 8px 0 0;
-  background: linear-gradient(to top, #75507b, #8A5F91);
-  box-shadow: inset 0 1px rgba(238, 238, 236, 0.07);
-}
-
-.titlebar:backdrop:not(headerbar), headerbar:backdrop { 
-  border-color: #202020; 
-  background-color: #75507b; 
-  background-image: none; 
-  box-shadow: inset 0 1px rgba(238, 238, 236, 0.07); 
-  transition: 200ms ease-out; 
-}
-
-.titlebar:not(headerbar) separator { 
-  background: #5c3566 
-}
-
-.default-decoration.titlebar:not(headerbar), headerbar.default-decoration { 
-  min-height: 16px; 
-  padding: 2px 4px; 
-  border-radius: 8px 8px 0 0; 
-}
-
-
-/* Settings for header/titlebar buttons */
-
-button.titlebutton {
-  min-height: 16px;
-  min-width: 16px;
-  padding: 2px 2px;
-  border-radius: 5px;
-}
-
-.raven .default-decoration.raven-header.top button.titlebutton,
-headerbar.default-decoration button.titlebutton {
-  min-height: 16px;
-  min-width: 16px;
-  margin: 0;
-  padding: 0;
-}
-
-button.titlebutton:not(.appmenu) {
-  border-radius: 5px;
-  padding: 1px;
-  margin: 0;
-  min-width: 16px;
-  min-height: 16px;
-}
-
-button.titlebutton, .default-decoration.titlebar:not(headerbar) button.titlebutton, .incognito-mode headerbar button.titlebutton, .incognito-mode actionbar button.titlebutton { 
-  padding: 1px;
-  border-color: #5c3566;
-  background: linear-gradient(180deg, #A06EA8, #8A5F91);
-}
-
-titlebar button, headerbar button, .titlebar button.destructive-action, .titlebar .linked button, .titlebar button:first-child { 
-  border-color: #5c3566;  
-  background: linear-gradient(180deg, #A06EA8, #8A5F91); 
-}
-
-titlebar button:hover, headerbar button:hover, .titlebar button.destructive-action:hover, .titlebar .linked button:hover, .titlebar button:hover:first-child, .incognito-mode headerbar button:hover, .incognito-mode actionbar button:hover { 
-  border-color: #5c3566;  
-  background: #A06EA8; 
-}
-
-titlebar button:hover:active, headerbar button:hover:active, .titlebar button.destructive-action:hover:active, .titlebar .linked button:hover:active, .titlebar button:hover:active:first-child, .incognito-mode headerbar button:hover:active, .incognito-mode actionbar button:hover:active { 
-  border-color: #5c3566;  
-  background: #75507b; 
-}
-
-titlebar button:checked, headerbar button:checked, .titlebar button.destructive-action:checked, .titlebar .linked button:checked, .titlebar button:checked:first-child, .incognito-mode headerbar button:checked, .incognito-mode actionbar button:checked { 
-  border-color: #5c3566;  
-  background: #75507b; 
-}
-
-button.titlebutton:backdrop, .default-decoration.titlebar:not(headerbar) button.titlebutton:backdrop, .titlebar button:backdrop, .titlebar .linked button:backdrop, .titlebar button.suggested-action:backdrop,  .titlebar button.destructive-action:backdrop { 
-  background: #75507b; 
-}
+@import url("th-gtk-tweaks.css");
 
 /* GTK NAMED COLORS
    ----------------
@@ -6840,7 +6710,7 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_bg_a #2b2b2b;
 @define-color wm_bg_b #262626;
 @define-color wm_shadow alpha(black, 0.35);
-@define-color wm_border #070707;
+@define-color wm_border #5c3566;
 @define-color wm_button_hover_color_a #111111;
 @define-color wm_button_hover_color_b #353535;
 @define-color wm_button_active_color_a #070707;
