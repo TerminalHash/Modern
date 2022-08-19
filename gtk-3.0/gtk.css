@@ -1999,7 +1999,6 @@ headerbar button:not(.flat).toggle:checked {
 
 .tiled .raven .raven-header.top, .raven .tiled .raven-header.top, .tiled-top .raven .raven-header.top, .raven .tiled-top .raven-header.top, .tiled-right .raven .raven-header.top, .raven .tiled-right .raven-header.top, .tiled-bottom .raven .raven-header.top, .raven .tiled-bottom .raven-header.top, .tiled-left .raven .raven-header.top, .raven .tiled-left .raven-header.top, .maximized .raven .raven-header.top, .raven .maximized .raven-header.top, .fullscreen .raven .raven-header.top, .raven .fullscreen .raven-header.top, .tiled headerbar, .tiled-top headerbar, .tiled-right headerbar, .tiled-bottom headerbar, .tiled-left headerbar, .maximized headerbar, .fullscreen headerbar, .fullscreen .titlebar:not(headerbar), .maximized .titlebar:not(headerbar), .tiled .titlebar:not(headerbar), .tiled-top .titlebar:not(headerbar), .tiled-right .titlebar:not(headerbar), .tiled-bottom .titlebar:not(headerbar), .tiled-left .titlebar:not(headerbar) {
   border-radius: 0;
-  border: 1px solid #5c3566;
 }
 
 .raven .default-decoration.raven-header.top:backdrop,
@@ -2051,7 +2050,6 @@ headerbar button.color {
 .background.solid-csd .titlebar {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  border: 1px solid #5c3566;
 }
 
 window separator:first-child + headerbar:backdrop, window separator:first-child + headerbar, window headerbar:first-child:backdrop, window headerbar:first-child {
@@ -2070,11 +2068,10 @@ window stack headerbar:first-child:backdrop, window stack headerbar:first-child,
 window.tiled headerbar, window.tiled headerbar:first-child, window.tiled headerbar:last-child, window.tiled headerbar:only-child, window.tiled headerbar:backdrop, window.tiled headerbar:backdrop:first-child, window.tiled headerbar:backdrop:last-child, window.tiled headerbar:backdrop:only-child, window.tiled-top headerbar, window.tiled-top headerbar:first-child, window.tiled-top headerbar:last-child, window.tiled-top headerbar:only-child, window.tiled-top headerbar:backdrop, window.tiled-top headerbar:backdrop:first-child, window.tiled-top headerbar:backdrop:last-child, window.tiled-top headerbar:backdrop:only-child, window.tiled-right headerbar, window.tiled-right headerbar:first-child, window.tiled-right headerbar:last-child, window.tiled-right headerbar:only-child, window.tiled-right headerbar:backdrop, window.tiled-right headerbar:backdrop:first-child, window.tiled-right headerbar:backdrop:last-child, window.tiled-right headerbar:backdrop:only-child, window.tiled-bottom headerbar, window.tiled-bottom headerbar:first-child, window.tiled-bottom headerbar:last-child, window.tiled-bottom headerbar:only-child, window.tiled-bottom headerbar:backdrop, window.tiled-bottom headerbar:backdrop:first-child, window.tiled-bottom headerbar:backdrop:last-child, window.tiled-bottom headerbar:backdrop:only-child, window.tiled-left headerbar, window.tiled-left headerbar:first-child, window.tiled-left headerbar:last-child, window.tiled-left headerbar:only-child, window.tiled-left headerbar:backdrop, window.tiled-left headerbar:backdrop:first-child, window.tiled-left headerbar:backdrop:last-child, window.tiled-left headerbar:backdrop:only-child, window.maximized headerbar, window.maximized headerbar:first-child, window.maximized headerbar:last-child, window.maximized headerbar:only-child, window.maximized headerbar:backdrop, window.maximized headerbar:backdrop:first-child, window.maximized headerbar:backdrop:last-child, window.maximized headerbar:backdrop:only-child, window.fullscreen headerbar, window.fullscreen headerbar:first-child, window.fullscreen headerbar:last-child, window.fullscreen headerbar:only-child, window.fullscreen headerbar:backdrop, window.fullscreen headerbar:backdrop:first-child, window.fullscreen headerbar:backdrop:last-child, window.fullscreen headerbar:backdrop:only-child, window.solid-csd headerbar, window.solid-csd headerbar:first-child, window.solid-csd headerbar:last-child, window.solid-csd headerbar:only-child, window.solid-csd headerbar:backdrop, window.solid-csd headerbar:backdrop:first-child, window.solid-csd headerbar:backdrop:last-child, window.solid-csd headerbar:backdrop:only-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  border: 1px solid #5c3566;
 }
 
 .titlebar:not(headerbar) separator {
-  background-color: #1b1b1b;
+  background-color: #5c3556;
 }
 
 window.devel headerbar.titlebar:not(.selection-mode) {
