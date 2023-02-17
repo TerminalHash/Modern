@@ -518,9 +518,9 @@ popover.background.touch-selection button.flat:active, popover.background.magnif
 button.suggested-action {
   color: white;
   outline-color: rgba(255, 255, 255, 0.3);
-  border-color: #092548;
-  border-bottom-color: #092548;
-  background-image: linear-gradient(to top, #1a68c6 2px, #A06EA8);
+  border-color: #5c3555;
+  border-bottom-color: #40253B;
+  background-image: linear-gradient(to top, #8A5F91 2px, #A06EA8);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(0, 0, 0, 0.05);
 }
 
@@ -539,9 +539,9 @@ button.suggested-action.flat {
 button.suggested-action:hover {
   color: white;
   outline-color: rgba(255, 255, 255, 0.3);
-  border-color: #092548;
-  border-bottom-color: #092548;
-  background-image: linear-gradient(to top, #1659ab 2px, #1863bd);
+  border-color: #40253B;
+  border-bottom-color: #40253B;
+  background: #ad7fa8;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(0, 0, 0, 0.05);
 }
 
@@ -550,9 +550,9 @@ button.suggested-action:active,
 button.suggested-action:checked {
   color: white;
   outline-color: rgba(255, 255, 255, 0.3);
-  border-color: #081e3a;
-  border-top-color: #051323;
-  background-image: image(#145099);
+  border-color: #5c3555;
+  border-top-color: #40253B;
+  background-image: image(#75507b);
   box-shadow: none;
 }
 
@@ -581,8 +581,8 @@ button.suggested-action:disabled {
 button.suggested-action:disabled:active,
 button.suggested-action:disabled:checked {
   color: #a4bcda;
-  border-color: #092548;
-  background-image: image(#1b59a4);
+  border-color: #40253B;
+  background-image: image(#663B5E);
   box-shadow: none;
 }
 
@@ -4068,7 +4068,7 @@ separator.sidebar {
 }
 
 separator.sidebar.selection-mode, .selection-mode separator.sidebar {
-  background-color: #10427e;
+  background-color: #5c3566;
 }
 
 /*********************
@@ -4865,8 +4865,8 @@ flowbox rubberband,
 .content-view rubberband,
 .content-view .rubberband,
 treeview.view rubberband {
-  border: 1px solid #1659ab;
-  background-color: rgba(22, 89, 171, 0.2);
+  border: 1px solid #5c3566;
+  background-color: rgba(117, 80, 123, 0.2);
 }
 
 flowbox flowboxchild {
@@ -6011,7 +6011,7 @@ window.background.chromium .view:selected, window.background.chromium iconview:s
 
 /**** Epiphany ****/
 .incognito-mode headerbar {
-  background: #141927 linear-gradient(to top, #1a2235, #1e263b);
+  background: #141927 linear-gradient(to top, #27172B, #38213D);
   box-shadow: inset 0 1px rgba(238, 238, 236, 0.07);
   border-color: #06080c;
 }
@@ -6021,8 +6021,8 @@ window.background.chromium .view:selected, window.background.chromium iconview:s
 }
 
 .incognito-mode headerbar:backdrop {
-  background-image: image(#252f49);
-  border-color: #171d2e;
+  background-image: image(#231426);
+  border-color: #311D36;
 }
 
 .incognito-mode headerbar > * {
@@ -6033,14 +6033,14 @@ window.background.chromium .view:selected, window.background.chromium iconview:s
 .incognito-mode headerbar stackswitcher button:checked,
 .incognito-mode headerbar button:not(.flat).toggle:active,
 .incognito-mode headerbar button:not(.flat).toggle:checked {
-  background: image(#151b2a);
-  border-color: #0e131d;
-  border-top-color: #06080c;
+  background: image(#27172B);
+  border-color: #311D36;
+  border-top-color: #38213D;
 }
 
 .incognito-mode headerbar entry {
   background-color: rgba(45, 45, 45, 0.9);
-  border-color: #141927;
+  border-color: #311D36;
 }
 
 .incognito-mode headerbar entry:focus {
@@ -6048,28 +6048,28 @@ window.background.chromium .view:selected, window.background.chromium iconview:s
 }
 
 .incognito-mode actionbar {
-  background: #252f49;
+  background: #44284A;
 }
 
 .incognito-mode actionbar > revealer > box {
-  border-color: #141927;
+  border-color: #311D36;
 }
 
 .incognito-mode actionbar:backdrop > revealer > box {
-  border-color: #171d2e;
+  border-color: #38213D;
 }
 
 .incognito-mode headerbar button, .incognito-mode actionbar button {
   color: #eeeeec;
   outline-color: rgba(238, 238, 236, 0.3);
-  border-color: #151b2a;
-  border-bottom-color: #080a0f;
-  background-image: linear-gradient(to top, #252f49 2px, #2b3857);
+  border-color: #27172B;
+  border-bottom-color: #3F2545;
+  background-image: linear-gradient(to top, #3F2545 2px, #5c3555);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.07), 0 1px rgba(0, 0, 0, 0.05);
 }
 
 .incognito-mode tabbar .box {
-  background: #151b2a;
+  background: #27172B;
   border-bottom: 1px solid #06080c;
 }
 
@@ -6086,26 +6086,26 @@ window.background.chromium .view:selected, window.background.chromium iconview:s
 }
 
 .incognito-mode tabbar tab {
-  border-color: #06080c;
-  background-color: #1a2235;
+  border-color: #27172B;
+  background-color: #3F2545;
 }
 
 .incognito-mode tabbar tab:checked {
-  background-color: #252f49;
+  background-color: #27172B;
 }
 
 .incognito-mode tabbar tab:checked:hover {
-  background-color: #2a3553;
+  background-color: #38213D;
 }
 
 .incognito-mode tabbar tab:hover {
-  background-color: #1f283f;
+  background-color: #44284A;
 }
 
 .incognito-mode tabbar .start-action,
 .incognito-mode tabbar .end-action {
-  background: #1a2235;
-  border-color: #06080c;
+  background: #38213D;
+  border-color: #27172B;
 }
 
 /**** Gedit ****/
@@ -6633,7 +6633,7 @@ dialog.xfsm-logout-dialog.keycap separator.horizontal {
   border-radius: 0;
 }
 
-@import url("th-gtk-tweaks.css");
+@import url("titlebar_tweaks.css");
 
 /* GTK NAMED COLORS
    ----------------

@@ -5,7 +5,6 @@
 .raven .raven-header.top, .titlebar:not(headerbar), headerbar { 
   padding: 0px 6px;
   min-height: 24px;
-  border-bottom-style: 1px solid #5c3566;
   border-radius: 8px 8px 0 0;
   background: linear-gradient(to top, #75507b, #8A5F91);
 }
