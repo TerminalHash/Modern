@@ -34,6 +34,7 @@ Color schemes for KDE Plasma install to:
 * Some code i picked from our works -  [Clearlooks Phenix Plume](https://github.com/TerminalHash/clearlooks-phenix-plume) and based on this theme my forks.
 * Fully rebased on [Adw-Mod](https://gitlab.com/hrdwrrsk/AdwMod-theme) by hrdwrrsk
 * Recolored Metacity theme from TraditionalOk by Daniel Borgmann, Andrea Cimitan
+* Forked adwaid theme by zabergan, thanks you!
 
 ## Screenshots
 
