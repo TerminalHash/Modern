@@ -1,0 +1,104 @@
+/* Changes for Modern theme 
+  (this should work, i guess) */
+
+/* Settings for header/titlebar */
+.raven .raven-header.top, .titlebar:not(headerbar), headerbar { 
+  color: white;
+  padding: 0px 6px;
+  min-height: 24px;
+  border-radius: 8px 8px 0 0;
+  background: linear-gradient(to top, #75507b, #8A5F91);
+}
+
+.titlebar:backdrop:not(headerbar), headerbar:backdrop { 
+  border-color: #202020; 
+  background-color: #75507b; 
+  background-image: none; 
+  box-shadow: inset 0 1px rgba(238, 238, 236, 0.07); 
+  transition: 200ms ease-out; 
+}
+
+.titlebar:not(headerbar) separator { 
+  background: #5c3566;
+}
+
+.default-decoration.titlebar:not(headerbar), headerbar.default-decoration { 
+  color: white;
+  min-height: 24px; 
+  padding: 2px 4px; 
+  border-radius: 8px 8px 0 0; 
+}
+
+
+/* Settings for header/titlebar buttons */
+
+button.titlebutton {
+  box-shadow: none;
+  color: white;
+  min-height: 18px;
+  min-width: 18px;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.raven .default-decoration.raven-header.top button.titlebutton,
+headerbar.default-decoration button.titlebutton {
+  box-shadow: none;
+  min-height: 18px;
+  min-width: 18px;
+  margin: 0;
+  padding: 1px;
+}
+
+button.titlebutton:not(.appmenu) {
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 1px;
+  margin: 0;
+  min-width: 18px;
+  min-height: 18px;
+}
+
+button.titlebutton, .default-decoration.titlebar:not(headerbar) button.titlebutton, .incognito-mode headerbar button.titlebutton, .incognito-mode actionbar button.titlebutton { 
+  box-shadow: none;
+  color: white;
+  padding: 1px;
+  border-color: #5c3566;
+  background: linear-gradient(180deg, #A06EA8, #8A5F91);
+}
+
+titlebar button, headerbar button, .titlebar button.destructive-action, .titlebar .linked button, .titlebar button:first-child { 
+  box-shadow: none;
+  color: white;
+  border-color: #5c3566;  
+  background: linear-gradient(180deg, #A06EA8, #8A5F91); 
+}
+
+titlebar button:hover, headerbar button:hover, .titlebar button.destructive-action:hover, .titlebar .linked button:hover, .titlebar button:hover:first-child, .incognito-mode headerbar button:hover, .incognito-mode actionbar button:hover { 
+  color: white;
+  border-color: #5c3566;  
+  background: #A06EA8; 
+}
+
+titlebar button:hover:active, headerbar button:hover:active, .titlebar button.destructive-action:hover:active, .titlebar .linked button:hover:active, .titlebar button:hover:active:first-child, .incognito-mode headerbar button:hover:active, .incognito-mode actionbar button:hover:active { 
+  color: white;
+  border-color: #5c3566;  
+  background: #75507b; 
+}
+
+titlebar button:checked, headerbar button:checked, .titlebar button.destructive-action:checked, .titlebar .linked button:checked, .titlebar button:checked:first-child, .incognito-mode headerbar button:checked, .incognito-mode actionbar button:checked { 
+  color: white;
+  border-color: #5c3566;  
+  background: #75507b; 
+}
+
+button.titlebutton:backdrop, .default-decoration.titlebar:not(headerbar) button.titlebutton:backdrop, .titlebar button:backdrop, .titlebar .linked button:backdrop, .titlebar button.suggested-action:backdrop,  .titlebar button.destructive-action:backdrop { 
+  background: #75507b; 
+}
+
+windowcontrols button {
+  border-radius: 5px;
+  padding: 1px;
+  min-width: 18px;
+  min-height: 18px;
+}

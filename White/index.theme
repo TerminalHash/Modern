@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Modern-White
+Type=X-GNOME-Metatheme
+Comment= A tweaked, more compact version of Adwaita with Plume colors (White version).
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Modern-White
+MetacityTheme=Modern-White
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24

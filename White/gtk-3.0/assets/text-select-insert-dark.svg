@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20.000002"
+   height="23.999998"
+   viewBox="0 0 5.291667 6.3499997"
+   version="1.1"
+   id="svg2044"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="text-select-insert-dark.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2046"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="1"
+     inkscape:cx="-16.5"
+     inkscape:cy="28"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2041" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-15.811795,-7.4521188)">
+    <g
+       id="text-select-insert-dark"
+       inkscape:label="#g5543"
+       transform="matrix(-0.26465747,0,0,-0.26476618,70.065858,58.118246)"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3497-8-2-62"
+         d="m 202.06916,170.28804 c -3.90414,-3.87957 -10.23401,-3.87957 -14.13815,0 -3.90415,3.87956 -3.90415,10.16959 0,14.04916 l 7.06908,7.02458 7.06907,-7.02458 c 3.90417,-3.87957 3.90417,-10.16959 0,-14.04916 z"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#15539e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;marker:none;enable-background:accumulate" />
+      <g
+         transform="translate(0,180)"
+         id="g4740-3-9"
+         style="display:inline" />
+    </g>
+  </g>
+</svg>
