@@ -79,22 +79,36 @@ window.active.button.toggled.toggled.hover.image.color: #fff
 window.active.button.disabled.bg: parentrelative
 window.active.button.disabled.image.color: #AAAAAA
 
-window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.bg: parentrelative Border
+window.inactive.button.unpressed.bg.border.color: #5c3566
 window.inactive.button.unpressed.image.color: #AAAAAA
 
-window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative Border
+window.inactive.button.pressed.bg.color: #5c3566
+window.inactive.button.pressed.bg.colorTo: #5c3566
+window.inactive.button.pressed.bg.border.color: #5c3566
 window.inactive.button.pressed.image.color: #AAAAAA
 
-window.inactive.button.hover.bg: parentrelative
+window.inactive.button.hover.bg: Gradient Vertical Flat Border
+window.inactive.button.hover.bg.color: #ad7fa8
+window.inactive.button.hover.bg.colorTo: #ad7fa8
+window.inactive.button.hover.bg.border.color: #5c3566
 window.inactive.button.hover.image.color: #AAAAAA
 
-window.inactive.button.toggled.unpressed.bg: parentrelative
+window.inactive.button.toggled.unpressed.bg: Gradient Vertical Flat Border
+window.inactive.button.toggled.unpressed.bg.color: #5c3566
+window.inactive.button.toggled.unpressed.bg.colorTo: #5c3566
+window.inactive.button.toggled.unpressed.bg.border.color: #5c3566
 window.inactive.button.toggled.unpressed.image.color: #AAAAAA
 
-window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.pressed.bg: parentrelative Border
+window.inactive.button.toggled.pressed.bg.border.color: #5c3566
 window.inactive.button.toggled.pressed.image.color: #AAAAAA
 
-window.inactive.button.toggled.hover.bg: parentrelative
+window.inactive.button.toggled.hover.bg: Gradient Vertical Flat Border
+window.inactive.button.toggled.hover.bg.color: #ad7fa8
+window.inactive.button.toggled.hover.bg.colorTo: #ad7fa8
+window.inactive.button.toggled.hover.bg.border.color: #5c3566
 window.inactive.button.toggled.hover.image.color: #AAAAAA
 
 window.inactive.button.disabled.bg: parentrelative
