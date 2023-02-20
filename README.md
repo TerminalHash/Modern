@@ -15,11 +15,12 @@ Changes, what included:
 
 1. Some accents not recolored (because some backgrounds/borders colored with *rgba(xx, xx, xx, xx)*, this different search);
 2. Little bugs in GTK+4 theme with headerbar/titlebar;
-3. What i don't see.
+3. GTK+4 theme might be bugged, some colors don't changed, etc;
+4. What i don't see.
 
 ## How to instal
 
-Extract archive with theme to ~/themes/Modern.
+Extract archive with theme, rename folders "Dark" to "Modern", "White" to "Modern-White" and use, what you want.
 
 Color schemes for Qt5Ct/Qt6Ct install to:
 * Qt5: ~/.config/qt5ct/colors
@@ -27,6 +28,8 @@ Color schemes for Qt5Ct/Qt6Ct install to:
 
 Color schemes for KDE Plasma install to:
 * ~/.local/share/color-schemes
+
+If you want use openbox theme, just copy folder "openbox-3" to any theme variant.
 
 ## Third-party code
 
