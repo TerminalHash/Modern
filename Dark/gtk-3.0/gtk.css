@@ -254,7 +254,7 @@ button.flat:checked:hover:active {
   background-color: alpha(currentColor,0.16);
 }
 
-.nemo-window grid.vertical > widget button:disabled, .caja-navigation-window box.horizontal > button.toggle.image-button:disabled, .mate-panel-menu-bar button:disabled, .lightdm-gtk-greeter #login_window button.combo:disabled, viewswitcher button:disabled, infobar .close:disabled, button.sidebar-button:disabled, notebook > header > tabs > arrow:disabled, #pulseaudio-button menu .linked button.flat:disabled,9a0117c3f29f095be3bf36afac1c52638f86e1a1 .budgie-popover.night-light-indicator button.flat:disabled:not(spinbutton),
+.nemo-window grid.vertical > widget button:disabled, .caja-navigation-window box.horizontal > button.toggle.image-button:disabled, .mate-panel-menu-bar button:disabled, .lightdm-gtk-greeter #login_window button.combo:disabled, viewswitcher button:disabled, infobar .close:disabled, button.sidebar-button:disabled, notebook > header > tabs > arrow:disabled, #pulseaudio-button menu .linked button.flat:disabled, .budgie-popover.night-light-indicator button.flat:disabled:not(spinbutton),
 button.flat:disabled {
   border-color: transparent;
   background-color: transparent;
