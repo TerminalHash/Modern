@@ -1,6 +1,6 @@
 @define-color blue_1 #99c1f1;
 @define-color blue_2 #62a0ea;
-@define-color blue_3 #3584e4;
+@define-color blue_3 #ad7fa8;
 @define-color blue_4 #A06EA8;
 @define-color blue_5 #1a5fb4;
 @define-color green_1 #8ff0a4;
@@ -121,7 +121,7 @@
 /* Text selection */
 selection {
   background-color: rgba(173, 127, 168, 0.3);
-  color: #75507b;
+  color: white;
 }
 
 .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, .raven calendar:selected, .view:selected:focus, iconview:selected:focus, .view:selected, iconview:selected,
@@ -176,10 +176,10 @@ textview text:disabled:selected, modelbutton.flat:disabled:selected,
  ***********/
 @keyframes needs_attention {
   from {
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.01, to(#3584e4), to(transparent));
+    background-image: -gtk-gradient(radial, center center, 0, center center, 0.01, to(#ad7fa8), to(transparent));
   }
   to {
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#3584e4), to(transparent));
+    background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#ad7fa8), to(transparent));
   }
 }
 
@@ -839,7 +839,7 @@ button.circular:hover:not(.osd):not(:checked):not(:active):not(:disabled) {
 stacksidebar row.needs-attention > label, .stack-switcher > button.needs-attention > label,
 .stack-switcher > button.needs-attention > image {
   animation: needs_attention 150ms ease-in;
-  background-image: radial-gradient(farthest-side, #3584e4 96%, rgba(53, 132, 228, 0));
+  background-image: radial-gradient(farthest-side, #ad7fa8 96%, rgba(173, 127, 168, 0));
   background-size: 6px 6px, 6px 6px;
   background-repeat: no-repeat;
   background-position: right 3px, right 4px;
@@ -1846,7 +1846,7 @@ treeview entry.flat:focus, treeview entry:focus {
   margin-bottom: 2px;
   border-style: none;
   color: #ffffff;
-  background-color: #3584e4;
+  background-color: #ad7fa8;
 }
 
 :dir(ltr) .entry-tag {
@@ -1869,12 +1869,12 @@ treeview entry.flat:focus, treeview entry:focus {
 }
 
 .entry-tag.button:hover {
-  border: 1px solid #3584e4;
+  border: 1px solid #ad7fa8;
   color: #ffffff;
 }
 
 .entry-tag.button:active {
-  background-color: #3584e4;
+  background-color: #ad7fa8;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -3061,7 +3061,7 @@ paned > separator {
 }
 
 paned > separator:selected {
-  background-image: image(#3584e4);
+  background-image: image(#ad7fa8);
 }
 
 paned > separator.wide {
@@ -4955,7 +4955,7 @@ viewswitcher button.needs-attention:active > stack > box label, viewswitcher but
 
 viewswitcher button.needs-attention > stack > box label {
   animation: needs_attention 150ms ease-in;
-  background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#3584e4), to(transparent)), -gtk-gradient(radial, center center, 0, center center, 0.5, to(rgba(255, 255, 255, 0.769231)), to(transparent));
+  background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#ad7fa8), to(transparent)), -gtk-gradient(radial, center center, 0, center center, 0.5, to(rgba(255, 255, 255, 0.769231)), to(transparent));
   background-size: 6px 6px, 6px 6px;
   background-repeat: no-repeat;
   background-position: right 0px, right 1px;
