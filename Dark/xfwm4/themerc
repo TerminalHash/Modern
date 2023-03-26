@@ -1,0 +1,26 @@
+# ---======/ Modern XFWM-theme \======---
+# Black version
+
+# [BUTTONS]
+button_offset=4
+button_spacing=2
+show_app_icon=false
+
+# [TITLE]
+full_width_title=false
+title_shadow_active=false
+title_shadow_inactive=false
+title_horizontal_offset=0
+
+# [TEXT]
+active_text_color=#fff
+active_text_shadow_color=#3d3d3d
+inactive_text_color=#404040
+inactive_text_shadow_color=#909090
+
+# [SHADOW]
+shadow_delta_height=2
+shadow_delta_width=0
+shadow_delta_x=0
+shadow_delta_y=0
+shadow_opacity=30
