@@ -4725,14 +4725,20 @@ treeview.view {
 }
 
 treeview.view:hover {
-  color: black;
-  background-color: alpha(currentColor,0.07);
+  color: white;
+  background-color: #ad7fa8;
 }
 
 treeview.view:selected:focus, treeview.view:selected {
   border-radius: 0;
-  color: black;
-  background-color: alpha(currentColor,0.1);
+  color: white;
+  background-color: #75507b;
+}
+
+treeview.view:selected:hover {
+  border-radius: 0;
+  color: white;
+  background-color: #ad7fa8;
 }
 
 treeview.view:selected:disabled {
