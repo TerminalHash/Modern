@@ -2,19 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="50"
    height="20"
    id="svg7539"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="switch-off.svg">
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="switch-off.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs7541">
     <linearGradient
@@ -91,6 +91,19 @@
          offset="1"
          style="stop-color:#ffffff;stop-opacity:1;" />
     </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1411"
+       x="-0.055470003"
+       y="-0.055470003"
+       width="1.11094"
+       height="1.11094">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.11007328"
+         id="feGaussianBlur1413" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -99,9 +112,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16.499159"
-     inkscape:cx="2.6049273"
-     inkscape:cy="12.240851"
+     inkscape:zoom="5.8333336"
+     inkscape:cx="16.028571"
+     inkscape:cy="2.2285713"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -110,10 +123,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1030"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="712"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      showguides="true"
@@ -121,7 +134,10 @@
      inkscape:snap-bbox-midpoints="false"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true">
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid3019"
@@ -183,11 +199,25 @@
                ry="11"
                rx="11" />
             <circle
-               style="fill:#353535;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="opacity:0.2;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:0.2;filter:url(#filter1411)"
+               id="path1158-3"
+               cx="2.9100091"
+               cy="3.1745925"
+               r="2.3812499"
+               transform="matrix(3.5339365,0,0,3.5339365,30.491343,1031.0303)" />
+            <ellipse
+               style="opacity:0.05;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93502;stroke-opacity:0.2"
+               id="path1158-3-5"
+               cx="40.776569"
+               cy="1041.3154"
+               rx="9.3502073"
+               ry="9.3502083" />
+            <circle
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.935021"
                id="path3759-7-4"
-               cx="41"
-               cy="1041.3622"
-               r="9" />
+               cx="40.88158"
+               cy="1041.3364"
+               r="8.4151859" />
           </g>
         </g>
       </g>
