@@ -2,30 +2,30 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="104"
    height="104"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="corner-ripple-ltr.svg">
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="corner-ripple.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4">
     <linearGradient
        id="linearGradient3857">
       <stop
-         style="stop-color:#35a854;stop-opacity:0"
+         style="stop-color:#ad7fa8;stop-opacity:0;"
          offset="0"
          id="stop3859" />
       <stop
-         style="stop-color:#35a854;stop-opacity:1"
+         style="stop-color:#ad7fa8;stop-opacity:1;"
          offset="1"
          id="stop3861" />
     </linearGradient>
@@ -48,20 +48,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="20.217701"
-     inkscape:cy="44.091095"
+     inkscape:zoom="2.8"
+     inkscape:cx="5.1785714"
+     inkscape:cy="25.714286"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-global="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1">
+     inkscape:window-width="1366"
+     inkscape:window-height="712"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid2985"
@@ -69,31 +72,40 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true"
-       originy="2px" />
+       originy="2"
+       originx="0"
+       spacingx="1"
+       spacingy="1" />
     <sodipodi:guide
        orientation="1,0"
        position="52,0"
-       id="guide2987" />
+       id="guide2987"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="52,0"
-       id="guide2989" />
+       id="guide2989"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="0,52"
-       id="guide3761" />
+       id="guide3761"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="0,52"
-       id="guide3763" />
+       id="guide3763"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="51,1"
-       id="guide3773" />
+       id="guide3773"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="51,1"
-       id="guide3775" />
+       id="guide3775"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -103,7 +115,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
