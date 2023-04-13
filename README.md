@@ -40,6 +40,7 @@ KWin theme install to:
 * Fully rebased on [Adw-Mod](https://gitlab.com/hrdwrrsk/AdwMod-theme) by hrdwrrsk
 * Recolored Metacity theme from TraditionalOk by Daniel Borgmann, Andrea Cimitan
 * Forked adwaid theme by zabergan, thanks you!
+* Forked Mint-Y cinnamon themes
 
 ## Screenshots
 
