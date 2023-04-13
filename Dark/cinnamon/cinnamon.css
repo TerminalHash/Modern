@@ -13,6 +13,9 @@ stage {
 .label-shadow {
   color: rgba(0, 0, 0, 0); }
 
+/* =============================== */
+/* -------#### Buttons ####------- */
+
 .sound-button, .modal-dialog-button-box .modal-dialog-button, .notification-button, .notification-icon-button, .popup-menu #notification .notification-button, .popup-menu #notification .notification-icon-button {
   min-height: 20px;
   padding: 5px 32px;
@@ -57,12 +60,12 @@ stage {
   transition-duration: 300ms;
   border-radius: 3px;
   color: #D3D3D3;
-  background-color: #404040;
+  background-color: #2D2D2D;
   border: 1px solid #202020;
   box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05); }
   #menu-search-entry:focus, .popup-menu #notification StEntry:focus, #menu-search-entry:hover, .popup-menu #notification StEntry:hover {
     color: rgba(255, 255, 255, 0.87);
-    background-color: #404040;
+    background-color: #2D2D2D;
     border: 1px solid #ad7fa8;
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05); }
   #menu-search-entry:insensitive, .popup-menu #notification StEntry:insensitive {
@@ -140,9 +143,9 @@ StScrollBar {
 .slider {
   -slider-height: 0.3em;
   -slider-background-color: #202020;
-  -slider-border-color: rgba(47, 47, 47, 0.3);
+  -slider-border-color: rgba(53, 53, 53, 0.3);
   -slider-active-background-color: #ad7fa8;
-  -slider-active-border-color: rgba(47, 47, 47, 0.3);
+  -slider-active-border-color: rgba(53, 53, 53, 0.3);
   -slider-border-width: 1px;
   -slider-handle-radius: 0.5em;
   height: 1em;
@@ -150,6 +153,9 @@ StScrollBar {
   border: 0 solid transparent;
   border-right-width: 1px;
   border-left-width: 5px; }
+
+/* ======================================================= */
+/* -------#### Check, Toggle and Radio buttons ####------- */
 
 .check-box CinnamonGenericContainer {
   spacing: .2em;
@@ -226,7 +232,7 @@ StScrollBar {
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: #2f2f2f;
+  background-color: #505050;
   spacing: 4px;
   padding: 8px; }
 
@@ -234,7 +240,7 @@ StScrollBar {
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: rgba(47, 47, 47, 0.99); }
+  background-color: rgba(53, 53, 53, 0.99); }
   .menu.top {
     border-radius: 0 0 3px 3px; }
   .menu.bottom {
@@ -245,7 +251,7 @@ StScrollBar {
     border-radius: 3px 0 0 3px; }
 
 .popup-sub-menu {
-  background-color: #404040;
+  background-color: #2D2D2D;
   box-shadow: none; }
   .popup-sub-menu .popup-menu-item:ltr {
     padding-right: 1.75em; }
@@ -266,7 +272,7 @@ StScrollBar {
   border-right-width: 0; }
   .popup-menu-item:active {
     color: #ffffff;
-    background-color: #525352; }
+    background-color: #ad7fa8; }
   .popup-menu-item:insensitive {
     color: rgba(255, 255, 255, 0.37);
     background: none; }
@@ -276,6 +282,8 @@ StScrollBar {
   .popup-inactive-menu-item:insensitive {
     color: rgba(255, 255, 255, 0.32); }
 
+/* =================================== */
+/* -------#### Popup Menus ####------- */
 /* This is for popup menus in Cinnamon versions < 3.2 */
 .popup-menu {
   color: white;
@@ -283,7 +291,7 @@ StScrollBar {
   .popup-menu-arrow {
     icon-size: 16px; }
   .popup-menu .popup-sub-menu {
-    background-color: #404040;
+    background-color: #2D2D2D;
     box-shadow: none; }
     .popup-menu .popup-sub-menu .popup-menu-item:ltr {
       padding-right: 1.75em; }
@@ -317,7 +325,7 @@ StScrollBar {
 
 .popup-menu-boxpointer {
   -arrow-border-radius: 3px;
-  -arrow-background-color: #2f2f2f;
+  -arrow-background-color: #505050;
   -arrow-border-width: 1px;
   -arrow-border-color: #202020;
   -arrow-base: 21px;
@@ -329,7 +337,7 @@ StScrollBar {
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: #404040;
+  background-color: #2D2D2D;
   box-shadow: none;
   padding: 1em 0em 1em 0em; }
 
@@ -358,6 +366,9 @@ StScrollBar {
 
 .nm-menu-item-icons {
   spacing: .5em; }
+
+/* ============================= */
+/* -------#### Panel ####------- */
 
 #panel {
   font-weight: bold;
@@ -461,7 +472,7 @@ StScrollBar {
 .panel-top, .panel-bottom, .panel-left, .panel-right {
   color: #ffffff;
   border: none;
-  background-color: rgba(47, 47, 47, 0.99);
+  background-color: rgba(53, 53, 53, 0.99);
   font-size: 1em;
   padding: 0px; }
 
@@ -508,8 +519,8 @@ StScrollBar {
   spacing: 12px; }
 
 .window-caption {
-  background-color: #353535;
-  border: 1px solid #353535;
+  background-color: #505050;
+  border: 1px solid #505050;
   color: #c3c3c3;
   spacing: 8px;
   border-radius: 2px;
@@ -563,7 +574,7 @@ StScrollBar {
     border-radius: 2px; }
 
 .expo-background {
-  background-color: #353535; }
+  background-color: #505050; }
 
 .workspace-thumbnails {
   spacing: 26px; }
@@ -610,6 +621,9 @@ StScrollBar {
   height: 120px;
   width: 400px; }
 
+/* ======================================== */
+/* -------#### Calendar Desklet ####------- */
+
 .calendar {
   spacing-rows: 0;
   spacing-columns: 0; }
@@ -623,7 +637,7 @@ StScrollBar {
   padding: .5em;
   min-width: 350px;
   border: 1px solid #202020;
-  background-color: #404040; }
+  background-color: #2D2D2D; }
 
 .calendar-events-no-events-button {
   margin: 6px 0 6px 0;
@@ -782,7 +796,9 @@ StScrollBar {
   text-align: center;
   width: 2.2em;
   height: 2.2em;
-  padding: 0.1em; }
+  padding: 0.1em; 
+  background-color: #2D2D2D;
+}
   .calendar-day-base:hover {
     font-weight: bold;
     color: #ffffff;
@@ -791,21 +807,35 @@ StScrollBar {
 .calendar-day-heading {
   color: rgba(255, 255, 255, 0.72);
   margin-top: 1em;
-  font-size: 1.05em; }
+  font-size: 1.05em; 
+}
 
-.calendar-day {
-  border-width: 0;
-  color: rgba(255, 255, 255, 0.77); }
-
-.calendar-day-top {
-  border-top-width: 0; }
-
-.calendar-day-left {
-  border-left-width: 0; }
+.calendar-day:ltr {
+    border: 1px solid #202020;
+    border-top-width: 0;
+    border-left-width: 0;
+}
+.calendar-day-top:ltr {
+    border-top-width: 1px;
+}
+.calendar-day-left:ltr {
+    border-left-width: 1px;
+}
+.calendar-day:rtl {
+    border: 1px solid #202020;
+    border-top-width: 0;
+    border-right-width: 0;
+}
+.calendar-day-top:rtl {
+    border-top-width: 1px;
+}
+.calendar-day-left:rtl {
+    border-right-width: 1px;
+}
 
 .calendar-nonwork-day {
   color: rgba(255, 255, 255, 0.87);
-  background-color: transparent;
+  background-color: rgba(204, 0, 0, 0.4);
   font-weight: bold; }
 
 .calendar-today {
@@ -833,14 +863,19 @@ StScrollBar {
   opacity: 1; }
 
 .calendar-week-number {
+  background: transparent;
   color: rgba(255, 255, 255, 0.72);
   font-size: 0.8em;
-  margin-top: 0.8em; }
+  margin-top: 0.2em; 
+}
+
+/* ===================================== */
+/* -------#### Notifications ####------- */
 
 #notification {
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: #2f2f2f;
+  background-color: #505050;
   padding: 13px;
   spacing-rows: 10px;
   spacing-columns: 10px;
@@ -878,6 +913,9 @@ StScrollBar {
 .notification-icon-button > StIcon {
   icon-size: 32px; }
 
+/* ======================================= */
+/* -------#### Window switcher ####------- */
+
 #altTabPopup {
   padding: 8px;
   spacing: 16px; }
@@ -885,12 +923,14 @@ StScrollBar {
 .switcher-list {
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
-  background-color: #2f2f2f;
-  border-radius: 3px;
+  background-color: #353535;
+  border-radius: 6px;
   padding: 20px; }
   .switcher-list > StBoxLayout {
     padding: 4px; }
   .switcher-list-item-container {
+    border: 1px solid #202020;
+    background-color: #2d2d2d;
     spacing: 8px; }
   .switcher-list .item-box {
     padding: 8px;
@@ -946,8 +986,11 @@ StScrollBar {
 .flashspot {
   background-color: white; }
 
+/* ==================================== */
+/* -------#### Modal Dialog ####------- */
+
 .modal-dialog {
-  background-color: #2f2f2f;
+  background-color: #505050;
   border: 1px solid #202020;
   border-radius: 3px;
   padding: 5px 10px; }
@@ -958,7 +1001,7 @@ StScrollBar {
     margin: 0px;
     padding: 10px;
     border: none;
-    background-color: #2f2f2f; }
+    background-color: #505050; }
     .modal-dialog-button-box .modal-dialog-button {
       padding-top: 0;
       padding-bottom: 0;
@@ -973,7 +1016,7 @@ StScrollBar {
   padding: 10px 15px 10px 15px;
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: #2f2f2f; }
+  background-color: #505050; }
   .run-dialog > * {
     padding: 0; }
   .run-dialog-label {
@@ -1006,7 +1049,7 @@ StScrollBar {
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); }
     .run-dialog-entry:focus {
       color: rgba(255, 255, 255, 0.87);
-      background-color: #404040;
+      background-color: #2D2D2D;
       border: 1px solid #ad7fa8;
       box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05); }
   .run-dialog .modal-dialog-button-box {
@@ -1069,8 +1112,11 @@ StScrollBar {
   .magnifier-zoom-region .full-screen {
     border-width: 0px; }
 
+/* ======================================== */
+/* -------#### Keyboard Desklet ####------- */
+
 #keyboard {
-  background-color: #353535;
+  background-color: #505050;
   border-width: 0;
   border-top-width: 1px;
   border-color: rgba(0, 0, 0, 0.4); }
@@ -1109,25 +1155,34 @@ StScrollBar {
   color: #c3c3c3;
   padding: 5px;
   -arrow-border-radius: 2px;
-  -arrow-background-color: #353535;
+  -arrow-background-color: #505050;
   -arrow-border-width: 1px;
   -arrow-border-color: rgba(0, 0, 0, 0.4);
   -arrow-base: 20px;
   -arrow-rise: 10px;
   -boxpointer-gap: 5px; }
 
+/* ================================== */
+/* -------#### Menu Zones ####------- */
+
 .menu-favorites-box {
   padding: 10px;
   transition-duration: 300;
-  background-color: #333333;
+  background-color: #2d2d2d;
   border: 1px solid #202020; }
 
 .menu-favorites-button {
   padding: .9em 1em;
-  border: 1px solid rgba(0, 0, 0, 0);
+  margin-top: 4px;
+  background-color: #353535;
+  border: 1px solid #1b1b1b;
   border-radius: 2px; }
+
+.menu-favorites-button:first-child {
+  margin-top: 0; }
+
   .menu-favorites-button:hover {
-    background-color: #525352; }
+    background-color: #ad7fa8; }
 
 .menu-places-box {
   padding: 10px;
@@ -1142,15 +1197,22 @@ StScrollBar {
 .menu-applications-inner-box, .menu-applications-outer-box {
   margin: 10px 10px 0 10px; }
 
+.menu-applications-inner-box {
+  background-color: #2d2d2d;
+  border: 1px solid #1b1b1b;
+  border-radius: 2px;
+}
+
 .menu-application-button {
   padding: 7px;
-  border: 1px solid rgba(0, 0, 0, 0); }
+  border: 1px solid transparent; }
+
   .menu-application-button:highlighted {
     font-weight: bold; }
   .menu-application-button-selected {
     padding: 7px;
     color: #ffffff;
-    background-color: #525352;
+    background-color: #ad7fa8;
     border: 1px solid #202020; }
     .menu-application-button-selected:highlighted {
       font-weight: bold; }
@@ -1161,11 +1223,23 @@ StScrollBar {
 
 .menu-category-button {
   padding: 7px;
-  border: 1px solid rgba(0, 0, 0, 0); }
+  border: 1px solid #1b1b1b; 
+  background-color: #2D2D2D;
+  border-top: none;
+  border-bottom: none;
+}
+
+.menu-category-button:first-child {
+  border-top: 1px solid #1b1b1b;
+}
+
+.menu-category-button:last-child {
+  border-bottom: 1px solid #1b1b1b;
+}
   .menu-category-button-selected {
     padding: 7px;
     color: #ffffff;
-    background-color: #525352;
+    background-color: #ad7fa8;
     border: 1px solid #202020; }
   .menu-category-button-hover {
     background-color: red;
@@ -1219,7 +1293,7 @@ StScrollBar {
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
   border-radius: 5px;
-  background-color: #2f2f2f; }
+  background-color: #353535; }
 
 .restart-osd {
   font-size: 1.6em; }
@@ -1233,7 +1307,7 @@ StScrollBar {
   spacing: 1em;
   padding: 20px;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #2f2f2f;
+  background-color: #353535;
   border: 1px solid #202020;
   border-radius: 5px; }
   .osd-window .osd-monitor-label {
@@ -1246,6 +1320,9 @@ StScrollBar {
   .osd-window .level-bar {
     border-radius: 2px;
     background-color: #ad7fa8; }
+
+/* =================================== */
+/* -------#### Window List ####------- */
 
 .window-list-box {
   spacing: 6px;
@@ -1308,7 +1385,7 @@ StScrollBar {
   spacing: 6px;
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
-  background-color: #2f2f2f;
+  background-color: #353535;
   border-radius: 3px;
   padding: 6px 12px 12px 12px;
   font-size: 1em; }
@@ -1379,7 +1456,7 @@ StScrollBar {
 .grouped-window-list-thumbnail-menu {
   color: rgba(255, 255, 255, 0.87);
   border: 1px solid #202020;
-  background-color: #2f2f2f;
+  background-color: #353535;
   border-radius: 3px;
   padding: 0px; }
   .grouped-window-list-thumbnail-menu > StBoxLayout {
@@ -1398,6 +1475,9 @@ StScrollBar {
   .grouped-window-list-thumbnail-menu .separator {
     width: 1px;
     background: rgba(255, 255, 255, 0.2); }
+
+/* ==================================== */
+/* -------#### Sound Button ####------- */
 
 .sound-button {
   width: 22px;
@@ -1474,7 +1554,7 @@ StScrollBar {
   height: 70px;
   padding: 15px;
   spacing: 0.5em;
-  background: rgba(47, 47, 47, 0.9);
+  background: rgba(53, 53, 53, 0.9);
   border-top: 1px solid #202020;
   color: rgba(255, 255, 255, 0.87); }
   .sound-player-overlay StButton {
@@ -1512,6 +1592,9 @@ StScrollBar {
   -slider-active-border-color: rgba(0, 0, 0, 0);
   -slider-border-width: 0px;
   -slider-handle-radius: 0px; }
+
+/* ========================================== */
+/* -------#### Workspace switcher ####------- */
 
 #workspaceSwitcher {
   spacing: 0px;
@@ -1573,6 +1656,9 @@ StScrollBar {
   -inactive-window-background: #3c3c3c;
   -inactive-window-border: rgba(0, 0, 0, 0.8); }
 
+/* ====================================== */
+/* -------#### Panel Launcher ####------- */
+
 .panel-launchers {
   padding-left: 7px;
   spacing: 2px; }
@@ -1582,7 +1668,7 @@ StScrollBar {
     padding-bottom: 2px;
     transition-duration: 200; }
     .panel-launchers .launcher:hover {
-      background-color: #525352; }
+      background-color: #ad7fa8; }
   .panel-launchers.vertical {
     padding-top: 2px;
     padding-bottom: 2px;
@@ -1598,6 +1684,9 @@ StScrollBar {
   #overview-corner:hover {
     background-image: url("common-assets/misc/overview-hover.png"); }
 
+/* =============================== */
+/* -------#### Applets ####------- */
+
 .applet-separator {
   padding: 1px 4px; }
   .applet-separator.vertical {
@@ -1605,10 +1694,12 @@ StScrollBar {
 
 .applet-separator-line {
   width: 1px;
-  background: rgba(255, 255, 255, 0.12); }
+  margin: 4px 0;
+  background: rgba(255, 255, 255, 0.32); }
   .applet-separator-line-vertical {
     height: 1px;
-    background: rgba(255, 255, 255, 0.12); }
+    margin: 0 4px;
+    background: rgba(255, 255, 255, 0.32); }
 
 .applet-box {
   padding-left: 4px;
@@ -1625,7 +1716,7 @@ StScrollBar {
     padding-bottom: 3px; }
   .applet-box:hover, .applet-box:checked {
     color: #ffffff;
-    background-color: #525352; }
+    background-color: #ad7fa8; }
   .applet-box:highlight {
     background-image: none;
     border-image: none;
@@ -1668,6 +1759,9 @@ StScrollBar {
   .applet-cornerbar.vertical {
     height: 8px; }
 
+/* ================================ */
+/* -------#### Desklets ####------- */
+
 .desklet {
   color: rgba(255, 255, 255, 0.87); }
   .desklet:highlight {
@@ -1675,7 +1769,7 @@ StScrollBar {
   .desklet-with-borders {
     border: 1px solid #202020;
     border-radius: 5px;
-    background-color: #2f2f2f;
+    background-color: #505050;
     color: rgba(255, 255, 255, 0.87);
     padding: 12px;
     padding-bottom: 16px; }
@@ -1685,7 +1779,7 @@ StScrollBar {
     border: 1px solid #202020;
     border-top-width: 0;
     border-radius: 0 0 5px 5px;
-    background-color: #2f2f2f;
+    background-color: #505050;
     color: rgba(255, 255, 255, 0.87);
     border-radius: 0;
     border-radius-topleft: 0;
@@ -1709,7 +1803,7 @@ StScrollBar {
 .photoframe-box {
   border: 1px solid #202020;
   border-radius: 5px;
-  background-color: #2f2f2f;
+  background-color: #505050;
   color: rgba(255, 255, 255, 0.87);
   padding: 12px;
   padding-bottom: 16px; }
@@ -1719,6 +1813,9 @@ StScrollBar {
 
 .notification-applet-container {
   max-height: 100px; }
+
+/* =================================== */
+/* -------#### Tiling ####------- */
 
 .tile-preview {
   background-color: rgba(173, 127, 168, 0.3);
