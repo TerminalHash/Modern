@@ -16,8 +16,7 @@ Changes, what included:
 1. Some accents not recolored (because some backgrounds/borders colored with *rgba(xx, xx, xx, xx)*, this different search);
 2. Little bugs in GTK+4 theme with headerbar/titlebar;
 3. GTK+4 theme might be bugged, some colors don't changed, etc;
-4. Not working decoration-maximized, decoration-inactive zones in aurorae-theme;
-5. What i don't see.
+4. What i don't see.
 
 ## How to instal
 
