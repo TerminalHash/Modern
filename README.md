@@ -32,6 +32,9 @@ Color schemes for KDE Plasma install to:
 KWin theme install to:
 * ~/.local/share/aurorae/themes
 
+Kvantum theme install to:
+* ~/.config/Kvantum
+
 ## Third-party code
 
 * ~~Original Adwaita themes from [libgtk](https://gitlab.gnome.org/GNOME/gtk/) (GTK+3, GTK+2) and [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) (GTK+4), what exported with widget factories of this toolkits.~~
