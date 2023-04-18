@@ -68,15 +68,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="4"
-     inkscape:cx="51"
-     inkscape:cy="1.25"
+     inkscape:zoom="8"
+     inkscape:cx="51.4375"
+     inkscape:cy="9.25"
      inkscape:window-width="1366"
      inkscape:window-height="712"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg18510" />
+     inkscape:current-layer="pressed-center" />
   <g
      id="pressed-center"
      transform="matrix(1.0909091,0,0,1.0909091,-2.1818182,0)">
@@ -128,6 +128,12 @@
        d="m 57.528774,13.269257 -0.51619,1.363477 -0.568332,-1.363477 z"
        id="path51693-5-4"
        sodipodi:nodetypes="cccc" />
+    <path
+       style="opacity:1;fill:#fbfbfb;fill-opacity:1;stroke-width:5.78809;stroke-linecap:square"
+       d="m 58.613103,14.96029 1.420044,3.089888 1.375846,-3.077871 z"
+       id="path51889"
+       sodipodi:nodetypes="cccc"
+       transform="matrix(0.91666666,0,0,0.91666666,2,0)" />
   </g>
   <g
      id="hover-center"
@@ -317,12 +323,6 @@
        x="97.014702"
        y="1.1323667"
        ry="3.5471864"
-       transform="matrix(0.91666666,0,0,0.91666666,-88,0)" />
-    <path
-       style="opacity:1;fill:#fbfbfb;fill-opacity:1;stroke-width:5.78809;stroke-linecap:square"
-       d="m 58.613103,14.96029 1.420044,3.089888 1.375846,-3.077871 z"
-       id="path51889"
-       sodipodi:nodetypes="cccc"
        transform="matrix(0.91666666,0,0,0.91666666,-88,0)" />
     <rect
        style="fill:#d6d6d6;fill-opacity:1;stroke-width:9.47636;stroke-linecap:square"
