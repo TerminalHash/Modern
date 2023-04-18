@@ -43,6 +43,7 @@ Kvantum theme install to:
 * Recolored Metacity theme from TraditionalOk by Daniel Borgmann, Andrea Cimitan
 * Forked adwaid theme by zabergan, thanks you!
 * Forked Mint-Y cinnamon themes
+* Forked KvGnomeDark theme
 
 ## Screenshots
 
