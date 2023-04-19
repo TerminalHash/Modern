@@ -22,8 +22,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="210.5"
-     inkscape:cy="569"
+     inkscape:cx="280.5"
+     inkscape:cy="646"
      inkscape:window-width="1366"
      inkscape:window-height="712"
      inkscape:window-x="0"
@@ -1892,14 +1892,14 @@
        id="rect536" /></g><circle
      cx="263"
      cy="588"
-     style="stroke:#ad7fa8;fill-opacity:0;color:#000;stroke-width:1.2;stroke-opacity:1"
+     style="stroke:#75507b;fill-opacity:0;color:#000;stroke-width:1.2;stroke-opacity:1"
      id="menu-radio-focused"
      r="7.4" /><g
      id="menu-radio-checked-focused"
      transform="translate(20)"><circle
        cx="283"
        cy="588"
-       style="stroke:#ad7fa8;fill-opacity:0;color:#000;stroke-width:1.2;stroke-opacity:1"
+       style="stroke:#75507b;fill-opacity:0;color:#000;stroke-width:1.2;stroke-opacity:1"
        r="7.4"
        id="circle540" /><circle
        cx="283"
@@ -1912,7 +1912,7 @@
      y="582.6"
      rx="2"
      height="12.8"
-     style="fill-rule:evenodd;stroke:#ad7fa8;fill-opacity:0;stroke-linecap:round;stroke-width:1.2;stroke-opacity:1"
+     style="fill-rule:evenodd;stroke:#75507b;fill-opacity:0;stroke-linecap:round;stroke-width:1.2;stroke-opacity:1"
      id="menu-checkbox-focused" /><g
      id="menu-checkbox-checked-focused"><rect
        width="12.8"
@@ -1920,7 +1920,7 @@
        y="582.6"
        rx="2"
        height="12.8"
-       style="fill-rule:evenodd;stroke:#ad7fa8;fill-opacity:0;stroke-linecap:round;stroke-width:1.2;stroke-opacity:1"
+       style="fill-rule:evenodd;stroke:#75507b;fill-opacity:0;stroke-linecap:round;stroke-width:1.2;stroke-opacity:1"
        id="rect546" /><path
        style="fill:#fff;fill-rule:evenodd;color:#000"
        d="m 392.7969,584.4256 -5.2094,4.5664 -2.4135,-2.766 -1.694,1.6481 3.9345,4.534 5.3824,-4.7743 z "
@@ -1931,7 +1931,7 @@
        y="582.6"
        rx="2"
        height="12.8"
-       style="fill-rule:evenodd;stroke:#ad7fa8;fill-opacity:0;stroke-linecap:round;stroke-width:1.2;stroke-opacity:1"
+       style="fill-rule:evenodd;stroke:#75507b;fill-opacity:0;stroke-linecap:round;stroke-width:1.2;stroke-opacity:1"
        id="rect551" /><rect
        width="10"
        x="422"
@@ -2198,7 +2198,7 @@
      y="566.6"
      rx="2"
      height="12.8"
-     style="fill-rule:evenodd;stroke:#ad7fa8;fill-opacity:0;stroke-linecap:round;stroke-width:1.2;stroke-opacity:1"
+     style="fill-rule:evenodd;stroke:#75507b;fill-opacity:0;stroke-linecap:round;stroke-width:1.2;stroke-opacity:1"
      id="item-checkbox-focused" /><rect
      width="12.8"
      x="320.6"
