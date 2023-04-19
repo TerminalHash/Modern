@@ -92,7 +92,6 @@ stage {
 .grid-search-result .overview-icon, .list-search-result, .search-provider-icon {
   border-radius: 4px;
   padding: 4px;
-  border: 1px solid #0f0f0f;
   transition-duration: 100ms;
   text-align: center;
 }
@@ -209,6 +208,14 @@ stage {
 .quick-toggle:checked {
   border-color: #5c3566;
   background-color: #A06EA8;
+}
+
+.quick-toggle-menu {
+  background-color: #2d2d2d;
+  border: 1px solid #0f0f0f;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 12px 18px 0; 
 }
 
 /* Good form for icon buttons in quick settings */
