@@ -35,6 +35,9 @@ KWin theme install to:
 Kvantum theme install to:
 * ~/.config/Kvantum
 
+Plasma Desktop Theme install to:
+* ~/.local.share/plasma/desktoptheme
+
 ## Third-party code
 
 * ~~Original Adwaita themes from [libgtk](https://gitlab.gnome.org/GNOME/gtk/) (GTK+3, GTK+2) and [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) (GTK+4), what exported with widget factories of this toolkits.~~
@@ -43,6 +46,7 @@ Kvantum theme install to:
 * Recolored Metacity theme from TraditionalOk by Daniel Borgmann, Andrea Cimitan
 * Forked adwaid theme by zabergan, thanks you!
 * Forked Mint-Y cinnamon themes
+* Forked kdewaita theme
 
 ## Screenshots
 
