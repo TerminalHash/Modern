@@ -1,0 +1,128 @@
+# ----====== [THEME INFO]  ======---- #
+ThemeName="IceModern"
+ThemeDescription="IceWM theme, powered by Adwaita technologies"
+ThemeAuthor="TerminalHash"
+License="GPLv3"
+Look=flat
+
+# ----====== [TITLEBAR/WINDOW]  ======---- #
+TitleBarHeight=26
+TitleButtonsSupported="xmihrds"
+TitleBarCentered=1
+TitleBarJustify=50
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+RolloverButtonsSupported=0
+HideBordersMaximized=1
+
+BorderSizeX=1
+BorderSizeY=1
+CornerSizeX=10
+CornerSizeY=1
+DlgBorderSizeX=1
+DlgBorderSizeY=1
+
+# ----====== [TASKBAR]  ======---- #
+TaskBarShowWindowIcons=0
+MenuIconSize=16
+SmallIconSize=16
+LargeIconSize=16
+HugeIconSize=16
+TrayIconMaxHeight=16
+TrayIconMaxWidth=16
+ShowMenuButtonIcon=0
+
+# ----====== [OTHER]  ======---- #
+ShowMoveSizeStatus=0
+MenuMouseTracking=1
+CenterTransientsOnOwner=1
+SnapMove=1
+EdgeSwitch=1
+EdgeResistance=1
+
+# ----====== [COLORS]  ======---- #
+ColorDialog="555555"
+ColorNormalBorder="#1b1b1b"
+ColorActiveBorder="#ad7fa8"
+ColorActiveTitleBar="#ad7fa8"
+ColorNormalTitleBar="#555555"
+ColorNormalTitleBarText="#acacac"
+ColorActiveTitleBarText="#f3f3f3"
+ColorNormalTitleBarShadow="#555555"
+ColorActiveTitleBarShadow="#555555"
+
+ColorNormalMenu="#383737"
+ColorActiveMenuItem="#383737"
+ColorNormalMenuItemText="#f1f1f1"
+ColorActiveMenuItemText="#f1f2f2"
+ColorDisabledMenuItemText="#acacac"
+
+ColorNormalButton="#141313"
+ColorNormalButtonText="#f3f3f3"
+ColorActiveButton="#555555"
+ColorActiveButtonText="#f3f3f3"
+
+ColorMoveSizeStatus="#424141"
+ColorMoveSizeStatusText="#f1f1f1"
+
+ColorDefaultTaskBar="#f3f3f3"
+ColorNormalTaskBarApp="#141313"
+ColorNormalTaskBarAppText="#f1f1f1"
+ColorActiveTaskBarApp="#7eae55"
+ColorActiveTaskBarAppText="#f1f1f1"
+ColorMinimizedTaskBarAppText="#acacac"
+
+ColorToolTip="#454545"
+ColorToolTipText="#f3f3f3"
+ColorLabel="#555555"
+ColorLabelText="#f3f3f3"
+
+ColorListBox="#454545"
+ColorListBoxText="#f3f3f3"
+ColorListBoxSelection="#797979"
+ColorListBoxSelectionText="#ffffff"
+
+ColorScrollBar="#ffffff"
+ColorScrollBarSlider="#797979"
+ColorScrollBarButton="#ffffff"
+ColorScrollBarButtonArrow="#333333"
+
+ColorClock="#454545"
+ColorClockText="#f3f3f3"
+
+ColorCPUStatusUser="#3366cc"
+ColorCPUStatusSystem="#669900"
+ColorCPUStatusNice="#ff6600"
+ColorCPUStatusIdle="#141313"
+ColorNetSend="#dc5050"
+ColorNetReceive="#7ea454"
+ColorNetIdle="#141313"
+
+ColorQuickSwitch="#555555"
+ColorQuickSwitchText="#f3f3f3"
+ColorQuickSwitchActive="#797979"
+
+# ----====== [BACKGROUND]  ======---- #
+DesktopBackgroundCenter=0
+DesktopBackgroundScaled=0
+DesktopBackgroundColor="#5E5C64"
+
+# ----====== [FONT]  ======---- #
+TitleFontNameXft="noto sans:size=8:bold"
+MenuFontNameXft="noto sans:size=8"
+StatusFontNameXft="noto sans:size=8"
+QuickSwitchFontNameXft="noto sans:size=10:bold"
+NormalButtonFontNameXft="noto sans:size=8"
+ActiveButtonFontNameXft="noto sans:size=8"
+NormalTaskBarFontNameXft="noto sans:size=8"
+ActiveTaskBarFontNameXft="noto sans:size=8:bold"
+ToolButtonFontNameXft="noto sans:size=8"
+NormalWorkspaceFontNameXft="noto sans:size=8"
+ActiveWorkspaceFontNameXft="noto sans:size=8:bold"
+MinimizedWindowFontNameXft="noto sans:size=8"
+ListBoxFontNameXft="noto sans:size=8"
+ToolTipFontNameXft="noto sans:size=8"
+ClockFontNameXft="noto sans:size=8:bold"
+ApmFontNameXft="noto sans:size=8"
+InputFontNameXft="noto sans:size=8"
+LabelFontNameXft="noto sans:size=8"
