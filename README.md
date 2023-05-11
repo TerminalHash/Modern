@@ -38,6 +38,9 @@ Kvantum theme install to:
 IceWM theme install to:
 * ~/.icewm/themes
 
+Fluxbox theme install to:
+* ~/.fluxbox/styles
+
 ## Third-party code
 
 * ~~Original Adwaita themes from [libgtk](https://gitlab.gnome.org/GNOME/gtk/) (GTK+3, GTK+2) and [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) (GTK+4), what exported with widget factories of this toolkits.~~
