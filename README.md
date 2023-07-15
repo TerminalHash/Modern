@@ -41,6 +41,10 @@ IceWM theme install to:
 Fluxbox theme install to:
 * ~/.fluxbox/styles
 
+TDE files installation:
+* deKorator theme:  ~/.trinity/share/apps/deKorator/themes
+* Color scheme: ~/.trinity/share/apps/tdedisplay/color-schemes
+
 ## Third-party code
 
 * ~~Original Adwaita themes from [libgtk](https://gitlab.gnome.org/GNOME/gtk/) (GTK+3, GTK+2) and [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) (GTK+4), what exported with widget factories of this toolkits.~~

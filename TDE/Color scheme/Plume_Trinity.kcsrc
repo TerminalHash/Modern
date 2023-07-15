@@ -1,0 +1,27 @@
+[Color Scheme]
+Name=Plume_Trinity
+activeBackground=173,127,168
+activeBlend=117,80,123
+activeForeground=255,255,255
+activeTitleBtnBg=127,158,200
+alternateBackground=49,49,49
+background=53,53,53
+buttonBackground=62,62,62
+buttonForeground=255,255,255
+contrast=7
+foreground=255,255,255
+frame=239,239,239
+handle=239,239,239
+inactiveBackground=92,53,85
+inactiveBlend=92,53,85
+inactiveForeground=221,221,221
+inactiveFrame=239,239,239
+inactiveHandle=239,239,239
+inactiveTitleBtnBg=167,181,199
+linkColor=160,110,168
+selectBackground=160,110,168
+selectForeground=255,255,255
+shadeSortColumn=true
+visitedLinkColor=117,81,123
+windowBackground=45,45,45
+windowForeground=255,255,255
