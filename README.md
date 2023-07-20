@@ -15,7 +15,7 @@ Changes, what included:
 
 Since the beginning of the development of this theme, only the dark version is the most complete. The other variations are given much less attention and may contain much more bugs and underpaints than the main (dark) one. If you notice a bug - **please, create a report and leave it in Issues, preferably with visual information.**
 
-About the full development of all variations: **no, No and again NO.** I don't have that much time or desire to deal with variations of a theme that I don't use myself.
+About the full development of all variations: **no, No and again NO.** I don't have that much time or desire to deal with variations of a theme that I don't use myself. Please, understand and step into the situation.
 
 ## Known bugs
 
