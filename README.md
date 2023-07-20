@@ -58,11 +58,11 @@ TDE files installation:
 
 ## Screenshots
 
+More screenshots on SCREENSHOTS.md!
+
 **GTK+3**
-![gtk3](screenshots/gtk3.png)
+![gtk3](screenshots/gtk3_widgets.png)
 
 **GTK+4**
-![gtk4](screenshots/gtk4.png)
+![gtk4](screenshots/gtk4_widgets.png)
 
-**Comparsion**
-![gtk4](screenshots/comparsion.png)
