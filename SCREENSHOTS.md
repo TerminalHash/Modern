@@ -9,12 +9,14 @@ A GTK+3/GTK+4 theme, based on Adwaita technology and style from my site.
 ### Main:
 
 **Metacity/Mutter/Muffin**
+
 ![metacity_comp](screenshots/metacity_gtk_style_comp.png)
 
 **Metacity without compositor/other WM without compositor**
 ![metacity_nocomp](screenshots/metacity_gtk_style_no_comp.png)
 
 **Metacity with metacity-deco**
+
 ![metacity__metacity_deco](screenshots/metacity_metacity_style.png)
 
 **GTK+3 Widgets**
@@ -26,17 +28,20 @@ A GTK+3/GTK+4 theme, based on Adwaita technology and style from my site.
 ### KDE:
 
 **KWin without compositor**
+
 ![kwin_nocomp](screenshots/kwin_no_comp.png)
 
 **KWin with compositor**
+
 ![kwin_comp](screenshots/kwin_comp.png)
 
-**Kvantum Preview**
+**Kvantum Preview:**
 ![kvantum](screenshots/kvantum.png)
 
 ### Window Managers:
 
 **Openbox**
+
 ![openbox](screenshots/openbox.png)
 
 **Fluxbox**
@@ -46,9 +51,11 @@ A GTK+3/GTK+4 theme, based on Adwaita technology and style from my site.
 ![icewm](screenshots/icewm.png)
 
 **XFWM**
+
 ![xfwm](screenshots/xfwm.png)
 
 **TWin**
+
 ![twin](screenshots/twin.png)
 
 ### Other:
