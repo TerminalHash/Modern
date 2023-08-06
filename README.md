@@ -62,6 +62,9 @@ TDE files installation:
 * Forked KvGnomeDark theme
 * Forked ceres-icewm theme
 
+### Why don't you use scss?
+I need to see the result here and now, also this format is too convoluted and inconvenient.
+
 ## Screenshots
 
 More screenshots on SCREENSHOTS.md!
