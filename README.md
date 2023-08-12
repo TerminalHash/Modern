@@ -51,6 +51,9 @@ TDE files installation:
 * deKorator theme:  ~/.trinity/share/apps/deKorator/themes
 * Color scheme: ~/.trinity/share/apps/tdedisplay/color-schemes
 
+Plasma Desktop Theme install to:
+* ~/.local/share/plasma/desktoptheme
+
 ## Third-party code
 
 * ~~Original Adwaita themes from [libgtk](https://gitlab.gnome.org/GNOME/gtk/) (GTK+3, GTK+2) and [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) (GTK+4), what exported with widget factories of this toolkits.~~
@@ -61,6 +64,7 @@ TDE files installation:
 * Forked Mint-Y cinnamon themes
 * Forked KvGnomeDark theme
 * Forked ceres-icewm theme
+* Forked kdewaita theme
 
 ### Why don't you use scss?
 I need to see the result here and now, also this format is too convoluted and inconvenient.
