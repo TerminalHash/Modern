@@ -52,7 +52,7 @@ TDE files installation:
 * Color scheme: ~/.trinity/share/apps/tdedisplay/color-schemes
 
 Plasma Desktop Theme install to:
-* ~/.local.share/plasma/desktoptheme
+* ~/.local/share/plasma/desktoptheme
 
 ## Third-party code
 
