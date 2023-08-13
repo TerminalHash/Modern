@@ -1,0 +1,41 @@
+/* ----======## Modern GTK+3 theme ##======----
+   Author: Dmitry "TerminalHash" Lyashuk
+   E-Mail: lyashuk.voxx@gmail.com
+   Variation: dark
+
+   The desktop theme, what powered by Adwaita technologies with my vision for some things.
+*/
+
+
+/* --===## Main colors ##===-- */
+@define-color border_color                      #5c3566;
+
+
+/* ===== buttons ===== */
+@define-color button_color                      linear-gradient(to top, #353535 2px, #3f3f3f);
+@define-color button_border_color               #1b1b1b;
+@define-color button_bottom_border_color        #070707;
+@define-color button_outline_color              rgba(238, 238, 236, 0.3);
+
+/* ================================= */
+
+/* --===## Accent colors ##===-- */
+@define-color active_accent_color               #ad7fa8;
+
+/* ================================= */
+
+/* --===## Headerbar/Titlebar ##===-- */
+@define-color titlebar_color                    linear-gradient(to top, #75507b, #8A5F91);
+@define-color titlebar_backdrop_color           #75507b;
+@define-color titlebar_backdrop_borber_color    #202020;
+
+@define-color separator_titlebar                #5c3566;
+
+/* ===== buttons ===== */
+@define-color button_titlebar                   linear-gradient(180deg, #A06EA8, #8A5F91);
+@define-color button_active_titlebar            #A06EA8;
+@define-color button_backdrop_titlebar          #75507b;
+@define-color button_check_titlebar             #75507b;
+@define-color button_hover_titlebar             #75507b;
+
+/* ================================= */
