@@ -17,7 +17,8 @@ It's an experimental branch. That means there could be a catastrophic number of 
 A list of experiments in progress can be read below.
 
 ### List of experiments
-1. Transferring colors to a separate file
+1. Transferring colors to a separate file;
+2. WinXP-like titlebar gradients.
 
 ## Third-party code
 

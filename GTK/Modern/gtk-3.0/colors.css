@@ -4,25 +4,89 @@
    Variation: dark
 
    The desktop theme, what powered by Adwaita technologies with my vision for some things.
+
+   COLORS.CSS
 */
 
 
 /* --===## Main colors ##===-- */
-@define-color border_color                      #5c3566;
+@define-color background_color                  #353535;
+@define-color border_color                      #1b1b1b;
 
+/* comboxes */
+@define-color combox_base_color                 #2ec27e;
 
 /* ===== buttons ===== */
 @define-color button_color                      linear-gradient(to top, #353535 2px, #3f3f3f);
+@define-color button_hover_color                linear-gradient(to top, #2b2b2b 2px, #353535);
+@define-color button_active_color               #202020;
+@define-color button_disabled_color             #363636;
+@define-color button_disabled_active_color      #272727;
+
 @define-color button_border_color               #1b1b1b;
 @define-color button_bottom_border_color        #070707;
+@define-color button_top_border_color           #070707;
 @define-color button_outline_color              rgba(238, 238, 236, 0.3);
 
-/* ================================= */
+/* circular */
+@define-color button_circular_color             linear-gradient(to top, #353535 2px, #3f3f3f);
+@define-color button_circular_hover_color       linear-gradient(to top, #2b2b2b 2px, #353535);
+
+/* toolbutton */
+@define-color toolbutton_color                  linear-gradient(to top, #353535 2px, #3f3f3f);
+@define-color toolbutton_active_color           #202020;
+@define-color toolbutton_hover_color            linear-gradient(to top, #2b2b2b 2px, #353535);
+@define-color toolbutton_disabled_color         #363636;
+@define-color toolbutton_disabled_active_color  #272727;
+
+/* suggested */
+@define-color button_suggested_color            linear-gradient(to top, #8A5F91 2px, #A06EA8);
+@define-color button_suggested_disabled_color   #363636;
+
+/* destructive */
+@define-color button_destructive_color          linear-gradient(to top, #ae1924 2px, #c01c28);
+@define-color button_destructive_active_color   #82131b;
+@define-color button_destructive_hover_color    linear-gradient(to top, #93161f 2px, #a51822);
+@define-color button_destructive_disact_color   #901a23;
+
+@define-color button_destructive_border_color   #32070a;
+
+/* OSD */
+@define-color button_osd_color                  rgba(38, 38, 38, 0.9);
+@define-color button_osd_active_color           rgba(0, 0, 0, 0.9);
+@define-color button_osd_disabled_color         rgba(58, 58, 57, 0.5);
+@define-color button_osd_hover_color            rgba(12, 12, 12, 0.9);
+
+@define-color button_osd_destructive_color      rgba(192, 28, 40, 0.5)
+@define-color button_osd_destructive_act_color  #c01c28
+@define-color button_osd_destructive_hov_color  rgba(192, 28, 40, 0.7)
+
+@define-color button_osd_border_color           rgba(0, 0, 0, 0.7);
+
+/* ===== text/image ===== */
+@define-color text_base_color                   #ffffff;
+@define-color text_disabled_color               #9e9e9d;
+
+@define-color text_colored_first_color          #D391DE;
+@define-color text_colored_second_color         #eeeeec;
+
+/* ################################## */
 
 /* --===## Accent colors ##===-- */
-@define-color active_accent_color               #ad7fa8;
+@define-color accent_verylight_color            #A06EA8;
+@define-color accent_light_color                #ad7fa8;        /* Most usable in hover or active background */
+@define-color accent_neutral_color              #75507b;        /* Most usable in background */
+@define-color accent_dark_color                 #5c3566;        /* Most usable in borders */
+@define-color accent_semidark_color             #663B5E
+@define-color accent_verydark_color             #40253B;
 
-/* ================================= */
+/* For applications where a transparent color is required */
+@define-color accent_transparent_0_color        rgba(173, 127, 168, 0);
+@define-color accent_transparent_1_color        rgba(173, 127, 168, 0.3);
+@define-color accent_transparent_2_color        rgba(173, 127, 168, 0.5);
+@define-color accent_transparent_3_color        rgba(173, 127, 168, 0.7);
+
+/* ################################## */
 
 /* --===## Headerbar/Titlebar ##===-- */
 @define-color titlebar_color                    linear-gradient(to top, #75507b, #8A5F91);
@@ -38,4 +102,73 @@
 @define-color button_check_titlebar             #75507b;
 @define-color button_hover_titlebar             #75507b;
 
-/* ================================= */
+/* ############################################# */
+/* Additional color scheme, WinXP-like gradients */
+@define-color xp_titlebar_color                 -gtk-gradient (linear left top, left bottom, from (#B47CBD), color-stop (0.05, #8A5F91), color-stop (0.15, #77527D), color-stop (0.90, #AD7FA8), color-stop (0.50, #8F698B), to (#75507b));
+@define-color xp_titlebar_backdrop_color        -gtk-gradient (linear, left top, left bottom, from (#F5FAF0), color-stop (0.05, #E6EBE2), color-stop (0.15, #CFD4CC), color-stop (0.90, #eeeeec), color-stop (0.50, #DEDEDC), to (#d3d7cf));
+@define-color xp_titlebar_backdrop_borber_color #202020;
+
+@define-color xp_separator_titlebar             #5c3566;
+
+/* ===== buttons ===== */
+@define-color xp_button_titlebar                linear-gradient(to bottom, #A06EA8, #8A5F91);
+@define-color xp_button_active_titlebar         linear-gradient(to bottom, #834C91, #71417D);
+@define-color xp_button_backdrop_titlebar       linear-gradient(to bottom, #FAFFF5, #E6EBE2);
+@define-color xp_button_disabled_titlebar       #5c3566;
+@define-color xp_button_check_titlebar          #75507b;
+@define-color xp_button_hover_titlebar          #ad7fa8;
+
+@define-color xp_close_button                   linear-gradient(to bottom, #ef2929, #cc0000);
+@define-color xp_close_button_active            linear-gradient(to bottom, #cc0000, #B20000);
+@define-color xp_close_button_border            #a40000;
+@define-color xp_close_button_hover             #ef2929;
+/* ############################################# */
+
+/* ################################## */
+
+/* Base GTK color defines */
+@define-color blue_1 #99c1f1;
+@define-color blue_2 #62a0ea;
+@define-color blue_3 #ad7fa8;
+@define-color blue_4 #A06EA8;
+@define-color blue_5 #1a5fb4;
+@define-color green_1 #8ff0a4;
+@define-color green_2 #57e389;
+@define-color green_3 #33d17a;
+@define-color green_4 #2ec27e;
+@define-color green_5 #26a269;
+@define-color yellow_1 #f9f06b;
+@define-color yellow_2 #f8e45c;
+@define-color yellow_3 #f6d32d;
+@define-color yellow_4 #f5c211;
+@define-color yellow_5 #e5a50a;
+@define-color orange_1 #ffbe6f;
+@define-color orange_2 #ffa348;
+@define-color orange_3 #ff7800;
+@define-color orange_4 #e66100;
+@define-color orange_5 #c64600;
+@define-color red_1 #f66151;
+@define-color red_2 #ed333b;
+@define-color red_3 #e01b24;
+@define-color red_4 #c01c28;
+@define-color red_5 #a51d2d;
+@define-color purple_1 #dc8add;
+@define-color purple_2 #c061cb;
+@define-color purple_3 #9141ac;
+@define-color purple_4 #813d9c;
+@define-color purple_5 #613583;
+@define-color brown_1 #cdab8f;
+@define-color brown_2 #b5835a;
+@define-color brown_3 #986a44;
+@define-color brown_4 #865e3c;
+@define-color brown_5 #63452c;
+@define-color light_1 #ffffff;
+@define-color light_2 #f6f5f4;
+@define-color light_3 #deddda;
+@define-color light_4 #c0bfbc;
+@define-color light_5 #9a9996;
+@define-color dark_1 #77767b;
+@define-color dark_2 #5e5c64;
+@define-color dark_3 #3d3846;
+@define-color dark_4 #241f31;
+@define-color dark_5 #000000;
