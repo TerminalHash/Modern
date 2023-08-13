@@ -128,14 +128,16 @@
 @define-color xp_titlebar_color_grd1            #B47CBD;
 @define-color xp_titlebar_color_grd2            #8A5F91;
 @define-color xp_titlebar_color_grd3            #77527D;
-@define-color xp_titlebar_color_grd4            #8F698B;
-@define-color xp_titlebar_color_grd5            #75507b;
+@define-color xp_titlebar_color_grd4            #AD7FA8;
+@define-color xp_titlebar_color_grd5            #8F698B;
+@define-color xp_titlebar_color_grd6            #75507b;
 
 @define-color xp_titlebar_backdrop_color_grd1   #F5FAF0;
 @define-color xp_titlebar_backdrop_color_grd2   #E6EBE2;
 @define-color xp_titlebar_backdrop_color_grd3   #CFD4CC;
-@define-color xp_titlebar_backdrop_color_grd4   #DEDEDC;
-@define-color xp_titlebar_backdrop_color_grd5   #d3d7cf;
+@define-color xp_titlebar_backdrop_color_grd4   #eeeeec;
+@define-color xp_titlebar_backdrop_color_grd5   #DEDEDC;
+@define-color xp_titlebar_backdrop_color_grd6   #d3d7cf;
 
 @define-color xp_titlebar_backdrop_borber_color #202020;
 
