@@ -6653,6 +6653,9 @@ dialog.xfsm-logout-dialog.keycap separator.horizontal {
 
 @import url("titlebar_tweaks.css");
 
+/* use this, if you have gtk3-classic */
+/* @import url("treeview-patch.css"); */
+
 /* GTK NAMED COLORS
    ----------------
    use responsibly! */

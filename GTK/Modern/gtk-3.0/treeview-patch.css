@@ -1,0 +1,36 @@
+/* ----======## Modern GTK+3 theme ##======----
+   Author: Dmitry "TerminalHash" Lyashuk
+   E-Mail: lyashuk.voxx@gmail.com
+   Variation: dark
+
+   The desktop theme, what powered by Adwaita technologies with my vision for some things.
+   Use this css only with gtk3-classic!
+
+   TREEVIEW-PATCH.CSS
+*/
+treeview.view {
+    background-color: @theme_base_color;
+    color: @theme_fg_color;
+}
+
+treeview.view.even,
+treeview.view.sorted.odd {
+    background-color: shade(@theme_base_color, 0.8);
+}
+
+treeview.view.sorted.even {
+    background-color: shade(@theme_base_color, 0.6);
+}
+
+treeview.view:hover,
+treeview.view.even:hover,
+treeview.view.odd:hover {
+    background-color: shade(@theme_selected_bg_color, 0.7);
+}
+
+treeview.view:selected,
+treeview.view.odd:selected,
+treeview.view.even:selected,
+treeview.view.sorted:selected {
+    background-color: @theme_selected_bg_color;
+}
