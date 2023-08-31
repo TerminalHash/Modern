@@ -11,10 +11,24 @@
 
 /* --===## Main colors ##===-- */
 @define-color background_color                  #353535;
-@define-color border_color                      #1b1b1b;
+@define-color background_color_2                #3f3f3f;
+@define-color background_color_3                #2b2b2b;
+@define-color background_color_4                #4e4e4e;
+@define-color background_color_5                #1e1e1e;
+@define-color background_color_6                #323232;
+@define-color background_color_7                #C490BF;
+@define-color background_color_8                #2d2d2d;
 
-/* comboxes */
-@define-color combox_base_color                 #2ec27e;
+@define-color border_color                      #1b1b1b;
+@define-color border_color_2                    #141414;
+@define-color border_color_3                    #0f0f0f;
+@define-color border_transparent_color          rgba(0, 0, 0, 0.7);
+@define-color border_bottom_color               #070707;
+@define-color border_bottom_color_2             #46304A;
+@define-color border_bottom_color_3             #2B1E2E;
+
+@define-color outline_color                     rgba(238, 238, 236, 0.3);
+@define-color outline_color_2                   rgba(255, 255, 255, 0.3);
 
 /* ===== buttons ===== */
 @define-color button_color_grd1                 #353535;
@@ -77,7 +91,7 @@
 @define-color button_osd_hover_color            rgba(12, 12, 12, 0.9);
 
 @define-color button_osd_destructive_color      rgba(192, 28, 40, 0.5)
-@define-color button_osd_destructive_act_color  #c01c28
+@define-color button_osd_destructive_act_color  #c01c28;
 @define-color button_osd_destructive_hov_color  rgba(192, 28, 40, 0.7)
 
 @define-color button_osd_border_color           rgba(0, 0, 0, 0.7);
@@ -85,9 +99,13 @@
 /* ===== text/image ===== */
 @define-color text_base_color                   #ffffff;
 @define-color text_disabled_color               #9e9e9d;
+@define-color text_disabled_color_2             #8a8a89;
+@define-color text_disabled_color_3             #a4bcda;
+@define-color text_disabled_color_4             #919190;
 
-@define-color text_colored_first_color          #D391DE;
-@define-color text_colored_second_color         #eeeeec;
+@define-color text_colored_color_1              #D391DE;
+@define-color text_colored_color_2              #eeeeec;
+@define-color text_colored_color_3              rgba(192, 28, 40, 0.8);
 
 /* ################################## */
 
@@ -96,7 +114,7 @@
 @define-color accent_light_color                #ad7fa8;        /* Most usable in hover or active background */
 @define-color accent_neutral_color              #75507b;        /* Most usable in background */
 @define-color accent_dark_color                 #5c3566;        /* Most usable in borders */
-@define-color accent_semidark_color             #663B5E
+@define-color accent_semidark_color             #663B5E;
 @define-color accent_verydark_color             #40253B;
 
 /* For applications where a transparent color is required */
@@ -195,6 +213,14 @@
 @define-color red_3 #e01b24;
 @define-color red_4 #c01c28;
 @define-color red_5 #a51d2d;
+@define-color red_6 #ae1924;
+@define-color red_7 #c01c28;
+@define-color red_8 #32070a;
+@define-color red_9 #93161f;
+@define-color red_10 #a51822;
+@define-color red_11 #240508;
+@define-color red_12 #82131b;
+@define-color red_13 #0e0203;
 @define-color purple_1 #dc8add;
 @define-color purple_2 #c061cb;
 @define-color purple_3 #9141ac;
