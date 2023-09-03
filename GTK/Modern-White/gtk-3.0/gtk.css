@@ -120,8 +120,8 @@
 
 /* Text selection */
 selection {
-  background-color: rgba(173, 127, 168, 0.3);
-  color: white;
+  background-color: rgba(117, 80, 123, 0.3);
+  color: black;
 }
 
 .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, .raven calendar:selected, .view:selected:focus, iconview:selected:focus, .view:selected, iconview:selected,
