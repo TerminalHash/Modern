@@ -94,3 +94,18 @@ titlebar button:checked, headerbar button:checked, .titlebar button.destructive-
 button.titlebutton:backdrop, .default-decoration.titlebar:not(headerbar) button.titlebutton:backdrop, .titlebar button:backdrop, .titlebar .linked button:backdrop, .titlebar button.suggested-action:backdrop,  .titlebar button.destructive-action:backdrop { 
   background: #75507b; 
 }
+
+/*                          gnome-system-monitor                              */
+/* Fix viewswitcher buttons in headerbar: centered button have double borders */
+/*        Can cause visual bugs if there are more than three buttons          */
+
+headerbar viewswitcher button:nth-child(even) {
+  border-right: 0;
+  border-left: 0;
+}
+
+headerbar viewswitcher button:checked:hover:nth-child(odd) {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-color: #5c3566;
+}
