@@ -61,8 +61,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Header][Inactive]
-BackgroundAlternate=49,54,59
-BackgroundNormal=42,46,50
+BackgroundAlternate=27,27,27
+BackgroundNormal=36,36,36
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
@@ -89,7 +89,7 @@ ForegroundPositive=23,104,57
 ForegroundVisited=92,53,85
 
 [Colors:Tooltip]
-BackgroundAlternate=42,46,50
+BackgroundAlternate=37,37,37
 BackgroundNormal=27,27,27
 DecorationFocus=173,127,168
 DecorationHover=117,80,123
@@ -133,6 +133,7 @@ ForegroundVisited=92,53,85
 [General]
 ColorScheme=BreezeDark
 Name=Plume
+TitlebarIsAccentColored=false
 shadeSortColumn=true
 
 [KDE]
