@@ -1,0 +1,23 @@
+{
+    "KPackageStructure": "Plasma/Theme",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "lyashuk.voxx@gmail.com",
+                "Name": "TerminalHash"
+            }
+        ],
+        "Category": "Plasma Theme",
+        "ServiceTypes": [
+            "Plasma/Theme"
+        ],
+        "EnabledByDefault": true,
+        "Name": "Modern",
+        "Description": "Theme for Plasma desktop, based on Modern theme for GTK",
+        "Id": "modernde",
+        "Version": "1.0",
+        "License": "GPL3.0",
+        "X-KPackage-Dependencies": [
+        ]
+    }
+}
