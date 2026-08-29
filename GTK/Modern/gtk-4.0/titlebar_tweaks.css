@@ -89,3 +89,9 @@ windowcontrols button {
   min-width: 18px;
   min-height: 18px;
 }
+
+/* fix very tall buttons
+   thanks for that shit, libadwaita developers! */
+windowcontrols {
+  padding: 8px;
+}
